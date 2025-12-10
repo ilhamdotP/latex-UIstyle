@@ -1,0 +1,115 @@
+%-----------------------------------------------------------------------------%
+\addChapter{Lampiran 1}
+\chapter*{Lampiran 1}
+%-----------------------------------------------------------------------------%
+
+\section{kanal-t propagator}
+\noindent dengan:
+\begin{equation}
+	i\epsilon_{\mu \nu \sigma \rho}\gamma^\mu = \gamma_5 (-\gamma_\mu \gamma_\nu \gamma_\sigma + g_{\mu\nu} \gamma_\sigma + g_{\nu\sigma}\gamma_\mu - g_{\sigma\mu} \gamma_\nu)
+\end{equation}
+
+\begin{eqnarray}
+	i\mathcal{M}_t&&=\frac{-ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma \rho}}{M_\eta(t-M_V^2)} \bar{u}(p_2)k_1^\mu\epsilon^\nu (k_1 - k_2)^\sigma \left[ g^\nu_{VNN}\gamma^\rho + \frac{g^t_{VNN}}{4M_N}[\slashed{q}\gamma^\rho - \gamma^\rho(\slashed{k}_1 - \slashed{p}_1)] \right] u(p_1) 
+\end{eqnarray}
+
+\subsection{bagian 1}
+
+\begin{eqnarray*}
+	i\mathcal{M}_t&&=\frac{-ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\bar{u}(p_2)k_1^\mu\epsilon^\nu (k_1 - k_2)^\sigma g^\nu_{VNN} u(p_1) \\
+	&&= \left(\frac{-ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right) \gamma_5 (\underbrace{-\gamma_\mu \gamma_\nu \gamma_\sigma}_a + \underbrace{g_{\mu\nu}\gamma_\sigma}_b + \underbrace{g_{\nu\sigma} \gamma_\mu}_c - \underbrace{g_{\sigma\mu} \gamma_\nu}_d) \bar{u}(p_2) k_1^\mu \epsilon^\nu (p_2-p_1)^\sigma g^\nu_{VNN} u(p_1)
+\end{eqnarray*}
+
+\noindent bagian a:
+
+\begin{eqnarray*}
+	i\mathcal{M}_t &&= - \left(\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right) \gamma_5 \gamma_\mu \gamma_\nu \gamma_\sigma \bar{u}(p_2) k_1^\mu \epsilon^\nu (p_2-p_1)^\sigma g^\nu_{VNN} u(p_1) \\
+	&&= - \left(\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right) \gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon}(\slashed{p}_2 - \slashed{p}_1)u(p_1) \\
+	&&= \left(\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right) \left[ -\gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon}\slashed{p}_2 u(p_1) + \gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon}\slashed{p}_1 u(p_1)\right] \\
+	&&= \left(\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right) \left[ -\gamma_5 \bar{u}(p_2) \slashed{k}_1 (2(\epsilon \cdot p_2 - \slashed{p}_2 \slashed{\epsilon})) u(p_1) + m_N \gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} u(p_1)\right] \\
+	&&= \left(\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right) \left[ - (2\epsilon \cdot p_2)\gamma_5 \bar{u}(p_2) \slashed{k}_1 u(p_1) + \gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{p}_2 \slashed{\epsilon} u(p_1) + m_N \gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} u(p_1)\right] \\
+	&&= \left(\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right) \bigg[ - (2\epsilon \cdot p_2)\gamma_5 \bar{u}(p_1) \slashed{k}_1 u(p_2) + \gamma_5 \bar{u}(p_2) (2(k_1\cdot p_2 - \slashed{p_2} \slashed{k_1})) u(p_1) \\
+	&&+  m_N \gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} u(p_1)\bigg] \\
+	&&= \left(\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right) \bigg[ - (2\epsilon \cdot p_2)\gamma_5 \bar{u}(p_1) \slashed{k}_1 u(p_2) + 2(k_1\cdot p_2)\gamma_5 \bar{u}(p_2) u(p_1) - \gamma_5 \bar{u}(p_2) \slashed{p}_2 \slashed{k}_1 u(p_1) \\
+	&&+  m_N \gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} u(p_1)\bigg]
+\end{eqnarray*}
+
+\begin{eqnarray}
+	i\mathcal{M}_t &&= \sqrt{\frac{E_2 + m_2}{2m_2}}\sqrt{\frac{E_1+m_1}{2m_1}} \chi_2^\dagger \bigg[- \frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\bigg] \bigg( \underbrace{-2g_{VNN}^\nu}_{F_5} + \underbrace{\frac{2g_{VNN}^\nu}{E_1 + m_1}}_{F_9} \\ 
+	&&+ \underbrace{\frac{2g_{VNN}^\nu}{E_2 + m_2}}_{F_{13}} - \underbrace{\frac{2g_{VNN}^\nu}{(E_1 + m_1)(E_2 + m_2)}}_{F_{20}} + \underbrace{2k_1\cdot p_2 g_{VNN}^\nu}_{F_1} + \underbrace{\frac{2k_1\cdot p_2 g_\mathrm{VNN}^\nu}{(E_1 + m_1)(E_2 + m_2)}}_{F_16} - \underbrace{m_2 g_{VNN}^\nu}_{F_1} \\ &&- \underbrace{\frac{m_2 g_{VNN}^\nu}{E_1 + m_1}}_{F_{14}} + \underbrace{\frac{m_2 g_{VNN}^\nu}{E_2 + m_2}}_{F_{15}} + \underbrace{\frac{m_2 g_{VNN} }{(E_1 + m_1)(E_2 + m_2)}}_{F_{16}} - \underbrace{g_{VNN}^\nu m_N}_{F_1} - \underbrace{\frac{g_{VNN}^\nu m_N}{E_1 + m_1}}_{F_{14}} + \underbrace{\frac{g_{VNN}^\nu m_N}{E_2 + m_2}}_{F_{16}} \bigg) 
+\end{eqnarray}
+
+\noindent Dikumpulkan yang sejenis $ F_1 $ dengan $ F_1 $,  $ F_5 $ dengan $ F_5 $, dst.
+
+\noindent bagian b:
+
+\begin{eqnarray}
+	i\mathcal{M}_t &&= \left(-\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right)\gamma_5 g_{\mu \nu} \gamma_\sigma \bar{u}(p_2) k_1^\mu \epsilon^\gamma (p_2 - p_1)^\sigma u(p_1) g_{VNN}^\nu \\
+	&&= \left(-\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right)\gamma_5 \bar{u}(p_2) \underbrace{k_1\cdot\epsilon}_0 (\slashed(p)_2 - \slashed(p)_1) u(p_1) \\
+	&&= 0
+\end{eqnarray}
+
+\noindent bagian c:
+
+\begin{eqnarray}
+	i\mathcal{M}_t &&= \left(-\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right) \gamma_5 g_{\nu\sigma} \gamma_\mu \bar{u}(p_2) k_1^\mu \epsilon^\gamma (p_2 - p_1)^\sigma u(p_1) g_{VNN}^\nu \\
+	&&= \left(-\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right) \gamma_5 g_{\nu \sigma} \gamma_\mu \bar{u}(p_2)(k_1^\mu \epsilon^\gamma p_2^\sigma - k_1^\mu \epsilon^\nu p_1^\sigma) u_1 \\
+	&&= \left(-\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right) \gamma_5 \epsilon \cdot p_2 \slashed{k}_1 \bar{u}(p_2) u(p_1) - \gamma_5 \epsilon \cdot p_1 \slashed{k}_1 \bar{u}(p_2) u(p_1)
+\end{eqnarray}
+
+\begin{eqnarray}
+	i\mathcal{M}_t &&= \sqrt{\frac{E_2 + m_2}{2m_2}}\sqrt{\frac{E_1+m_1}{2m_1}} \chi_2^\dagger \bigg[ \underbrace{g_{VNN}^\nu}_{F_5} - \underbrace{\frac{g_{VNN}^\nu}{E_1 + m_1}}_{F_9} - \underbrace{\frac{g_{VNN}^\nu}{E_2+m_2}}_{F_{13}} + \underbrace{\frac{g_{VNN}^\nu}{(E_1 + m_1)(E_2 + m_2)}}_{F_{20}} \\
+	&&- \underbrace{g^\nu_{VNN}}_{F_4} + \underbrace{\frac{g_{VNN}^\nu}{E_1 + m_1}}_{F_{8}} + \underbrace{\frac{g_{VNN}^\nu}{E_2 + m_2}}_{F_{12}} - \underbrace{\frac{g_{VNN}^\nu}{(E_1 + m_1)(E_2 + m_2)}}_{F_{19}} \bigg]
+\end{eqnarray}
+
+\noindent bagian d:
+\begin{eqnarray}
+	i\mathcal{M}_t &&= \left(-\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right)\left(-\gamma_5 g_{\sigma \mu} \gamma_\nu \bar{u}(p_2) k_1^\mu \epsilon^\nu (p_2 - p_1)^\sigma u_(p_1)\right) \\
+	&&= \left(-\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right)\left(-\gamma_5 g_{\sigma \mu} \gamma_\nu \bar{u}(p_2) (k_1^\mu \epsilon^\nu p_2^\sigma - k_1^\mu \epsilon^\nu p_1) u(p_1)\right) \\
+	&&= \left(-\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right)\left(-\gamma_5 k_1 \cdot p_2 \slashed{\epsilon} \bar{u}(p_2)u(p_1) + \gamma_5 k_1 \cdot p_1 \slashed{\epsilon} \bar{u}(p_2) u(p_1)\right) \\
+	&&= \left(-\frac{ieg_{\gamma \eta V} F_t^V \epsilon_{\mu \nu \sigma\rho}}{M_\eta(t-M_V^2)}\right)\left(-k_1 \cdot p_2 \gamma_5 \bar{u}(p_1) \slashed{\epsilon} u(p_1) + k_1 \cdot p_1 \gamma_5 \bar{u}(p_2) \slashed{\epsilon} u(p_1)\right)
+\end{eqnarray}
+
+\begin{eqnarray}
+	i\mathcal{M}_t &&= -\sqrt{\frac{E_2 + m_2}{2m_2}} \sqrt{\frac{E_1 + m_1}{2m_1}} \chi_2^\dagger \bigg[ -\underbrace{k_1 \cdot p_2 g_{VNN}^\nu}_{F_1} - \underbrace{\frac{g_{VNN^\nu}k_1 \cdot p_2}{(E_1+m_1)(E_2+m_2)}}_{F_{16}} \\
+	&&+ \underbrace{g_{VNN}^\nu k_1 \cdot p_1}_{F_1} + \underbrace{\frac{g_{VNN}^\nu k_1 \cdot p_1}{(E_1 + m_1)(E_2 + m_2)}}_{F_{16}} \bigg]
+\end{eqnarray}
+
+\subsection{bagian 2}
+
+\begin{equation}
+	i\mathcal{M}_t = -\frac{ieg_{\gamma\eta\nu} F_t^\nu}{m_\eta (t-m_v^2)} \gamma_5 (-\underbrace{\gamma_\mu \gamma_\nu \gamma_\sigma}_a + \underbrace{g_{\mu \nu} \gamma_\rho}_b + \underbrace{g_{\nu\sigma}\gamma_\mu}_c - \underbrace{g_{\sigma\mu}\gamma_\nu}_d) k_1^\mu \epsilon^\nu \bar{u}(p_2) (p_2 - p_1)^\sigma \frac{g^t_{VNN}}{4m_N} \slashed{q} u(p_1) 
+\end{equation}
+
+\noindent bagian a:
+
+\begin{eqnarray*}
+	i\mathcal{M}_t &&= -\frac{ieg_{\gamma\eta\nu} F_t^\nu}{m_\eta (t-m_v^2)} \bigg( -\gamma_5 \gamma_\mu \gamma_\nu \gamma_\sigma \bar{u}(p_2) k_1^\mu \epsilon^\nu (p_2-p_1)^\sigma \slashed{q} u(p_1) \bigg) \\
+	&&= -\frac{ieg_{\gamma\eta\nu} F_t^\nu}{m_\eta (t-m_v^2)} \bigg( -\gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} (\slashed{p}_2 - \slashed{p}_1) \slashed{q} u(p_1) \bigg) \\
+	&&= -\frac{ieg_{\gamma\eta\nu} F_t^\nu}{m_\eta (t-m_v^2)} \bigg( -\gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} \slashed{p}_2(\slashed{p}_1 - \slashed{p}_2) u(p_1) + \gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} \slashed{p}_1 (\slashed{p}_1 - \slashed{p}_2) u(p_1) \bigg) \\
+	&&= -\frac{ieg_{\gamma\eta\nu} F_t^\nu}{m_\eta (t-m_v^2)} \bigg( -\gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} \slashed{p}_2\slashed{p}_1 u(p_1) + \gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} \slashed{p}_2^2 u(p_1) + \gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} \slashed{p}_1^2 u(p_1) \\
+	&&-\gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} \slashed{p}_1\slashed{p}_2 u(p_1) \bigg) \\
+	&&= -\frac{ieg_{\gamma\eta\nu} F_t^\nu}{m_\eta (t-m_v^2)} \bigg( -\underbrace{m_1 2 (\epsilon \cdot p_2) \gamma_5 \bar{u}(p_2) \slashed{k}_1 u(p_1)}_i + \underbrace{2 (k_1 \cdot p_2) m_1 \gamma_5 \bar{u}(p_2) \slashed{\epsilon}u_1}_{ii}  \\
+	&& + \underbrace{m_1 m_2 \gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} u(p_1)}_{iii} + \underbrace{m_2^2 \gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} u(p_1)}_{iv} + \underbrace{m_1^2 \gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} u(p_1)}_{v} \\
+	&& - \underbrace{2 (p_1 \cdot p_2) \gamma_5 2 (p_1 \cdot p_2) \gamma_5 \bar{u}(p_2)  \slashed{k}_1 \slashed{\epsilon} u(p_1)}_{vi} + \underbrace{m_1 2(\epsilon \cdot p_2) \gamma_5 u(p_2) \gamma_5 \bar{u}(p_2) \slashed{k_1} u(p_1)}_{vii} \\
+	&& - \underbrace{2 (k_1 \cdot p_2) m_1 \gamma_5 \bar{u}(p_2)\slashed{\epsilon}}_{viii} + \underbrace{m_1 \gamma_5  \bar{u}(p_2) \slashed{\epsilon} m_1 \gamma_5 \bar{u}(p_2) \slashed{k}_1 \slashed{\epsilon} u(p_1)}_{ix} \bigg)
+\end{eqnarray*}
+
+\noindent sehingga didapatkan $ F_1 \cdots F_{20} $.
+
+\noindent bagian b:
+\begin{eqnarray}
+	i\mathcal{M}_t &&= -\frac{ieg_{\gamma\eta\nu} F_t^\nu}{m_\eta (t-m_v^2)} \bigg( \gamma_5 g_{\mu \nu} \gamma_\sigma \bar{u}(p_2) (k_1^\mu \epsilon^\nu p_2^\sigma - k_1^\mu\epsilon^\nu p_1^\sigma) u(p_1) \bigg) \\
+	&&= -\frac{ieg_{\gamma\eta\nu} F_t^\nu}{m_\eta (t-m_v^2)} \gamma_5 \bar{u}(p_2) \bigg( k_1 \cdot \epsilon \slashed{p}_2 \slashed{q} - k_1 \cdot \epsilon \slashed{p}_1 \slashed{q} \bigg) \bar{u}(p_1)
+\end{eqnarray}
+
+\noindent bagian c:
+\begin{eqnarray}
+	i\mathcal{M}_t &&= -\frac{ieg_{\gamma\eta\nu} F_t^\nu}{m_\eta (t-m_v^2)} \bigg( \gamma_5 g_{\nu\sigma} \gamma_\mu \bar{u}(p_2) k_1^\mu \epsilon^\nu (p_2-p_1)^\sigma \slashed{q} u(p_1) \bigg) \\
+	&&= -\frac{ieg_{\gamma\eta\nu} F_t^\nu}{m_\eta (t-m_v^2)} \bigg( \gamma_5 g_{\nu\sigma} \gamma_\mu \bar{u}(p_2) (k_1^\mu \epsilon^\nu p_2 \slashed{q} - k_1^\mu \epsilon^\nu p_1 \slashed{q})^\sigma u(p_1) \bigg) \\
+	&&= m_1 \epsilon\cdot p_2 \gamma_5 \bar{u}(p_2) \slashed{k}_1 u_1 - m_1 \epsilon\cdot p_2 \gamma_5 \bar{u}(p_1) \slashed{k}_1 u_1 \\ 
+	&& - 2 (k_1 \cdot p_2) (\epsilon \cdot p_2) \gamma_5 \bar{u}(p_2) u(p_1) + \epsilon \cdot p_2 \gamma_5 \bar{u} (p_2) \slashed{p}_2 \slashed{k}_1 u(p_1) \\ 
+	&& + 2 (k_1 \cdot p_2) (\epsilon \cdot p_1) \gamma_5 \bar{u}(p_2) u(p_1) - \epsilon \cdot p_1 \gamma_5 \bar{u} (p_2) \slashed{p}_2 \slashed{k}_1 u(p_1)
+\end{eqnarray}
+
+\noindent sehingga didapatkan $ F_1 \cdots F_{20} $.
