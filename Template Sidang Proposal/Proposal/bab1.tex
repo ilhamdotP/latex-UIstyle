@@ -1,0 +1,59 @@
+% +++++++++++++++++++++++++++
+%
+% BAB 1: PENDAHULUAN
+%
+% +++++++++++++++++++++++++++
+
+\chapter{PENDAHULUAN}
+
+\section{Latar Belakang}
+Citra dalam medis merupakan salah satu faktor untuk melakukan perlakuan terapi medis lebih lanjut baik dalam radioterapi maupun kedokteran nuklir. Dalam hal ini kualitas citra yang dihasilkan merupakan informasi yang sangat penting dalam menunjukkan posisi anatomi ataupun fungsional organ tubuh, sehingga diperoleh diagnosa yang cukup akurat. Untuk menghasilkan citra yang baik diperlukan modalitas dengan ketelitian tinggi sehingga optimalisasi kuantitas yang dihasilkan, baik resolusi spasial, sensitivitas, maupun kontras, diperoleh dengan baik. Modalitas pencitraan yang digunakan terdiri dari dua jenis, yaitu modalitas dalam memberikan informasi detail mengenai anatomi pasien (MRI, CT-Scan, X-Rays), dan modalitas dalam memberikan informasi mengenai aktivitas fungsional dari suatu organ atau jaringan spesifik (SPECT, PET).\cite{Hirtl}
+
+SPECT (\textit{Single Photon Emission Computed Tomography}) dan PET (\textit{Positron Emission Tomography}) merupakan modalitas pencitraan diagnostik dalam kedokteran nuklir. Kedua modalitas tersebut menggunakan metode non-invasif, yaitu menggunakan injeksi radioaktif kedalam tubuh pasien dimana radioaktif dalam tubuh tersebut akan dievakuasi oleh organ tubuh sehingga mampu dideteksi oleh detektor. Dalam merekonstuksi citra keduanya menggunakan metode \textit{filtered backprojection} atau metode iteratif. Perbedaan dari kedua modalitas tersebut jika SPECT memanfaatkan distribusi radionuklida pemancar sinar-X atau sinar gamma (contoh \textsuperscript{99m}Tc) pada pasien, sedangkan PET memanfaatkan distribusi radionuklida pemancar positron (contoh \textsuperscript{18}FDG). PET memiliki keunggulan dalam hal sensitivitas daripada SPECT, namun kelemahan PET adalah mengeluarkan biaya yang cukup tinggi.\cite{Ferreira}
+
+Seperti yang telah disebutkan sebelumnya bahwa pencitraan dengan menggunakan SPECT ataupun PET menggunakan material radioaktif yang dimasukkan kedalam tubuh. Material radioaktif yang digunakan disebut sebagai radiofarmaka yang memiliki sifat inti atom tidak stabil. Beberapa radiofarmaka yang digunakan diantaranya adalah \textsuperscript{123}I, \textsuperscript{111}In, \textsuperscript{57}Co, \textsuperscript{201}Th, \textsuperscript{99m}Tc, dsb. Pemilihan radiofarmaka untuk pencitraan dapat dilihat dari sifat pemancar gamma isotop dari beberapa jenis radioaktif tersebut. Misal \textsuperscript{111}In, \textsuperscript{131}I, \textsuperscript{125}I, dan \textsuperscript{99m}Tc merupakan jenis radioaktif pemancar gamma isotop sehingga jenis tersebut sangat cocok digunakan sebagai material radioaktif. Perlu diperhatikan faktor lain seperti waktu peluruhan dan nilai distribusi dosis dalam memilih radiofarmaka yang sesuai untuk pencitraan, mengingat proteksi radiasi untuk keselamatan pasien dan pekerja sangat penting.\cite{Alehyani}\cite{Roshan}
+
+Penggunaan SPECT dan PET sebagai pencitraan diagnostik pada klinis tidak lepas dari performa alat sistem untuk memperoleh citra kualitas tinggi, sehingga diperlukan protokol akuisisi terstandarisasi untuk QC (\textit{Quality Control}). Kualitas citra tinggi diperoleh dari banyaknya data cacahan, waktu panjang akuisisi, dan dosis radionuklida dalam jumlah besar. Namun pada klinis waktu akuisisi pendek dan dosis radionukliad rendah diutamakan mengingat keselamatan pasien dan staf. Ketidaktepatan dalam melakukan protokol QC terstandarisasi akan menghasilkan citra kualitas rendah yang mengakibatkan kesalahan deteksi lesion dan diagnosis.\cite{D'Arienzo1}
+
+Perlu diperhatikan bahwa sensitivitas yang tinggi akan mengakibatkan resolusi rendah, dan begitu juga sebaliknya. Dalam pencitraan, resolusi spasial merupakan faktor yang sangat penting dalam memberikan kualitas citra sehingga sensitivitas biasanya dikorbankan. Kehilangan cacah dalam keseluruhan sistem akan menurunkan kualitas citra sehingga perlu dilakukan optimasi dengan mengontrol jumlah aktivitas yang diberikan dan waktu pencitraan yang realistis.\cite{Zhou} 
+
+Komponen penting dalam pembentukan citra adalah proses scanning dengan menggunakan kamera gamma yang mampu mengoleksi data dari pasien secara simultan pada area yang diinginkan. Detektor yang digunakan adalah detektor sintilasi seperti kristal NaI(Tl) yang dilengkapi kolimator untuk memperoleh hubungan spasial antara titik pemancar radioaktif dalam tubuh dengan titik interaksi dengan kristal.\cite{Wolf}
+
+Bentuk dan dimensi kolimator menjadi parameter geometrikal utama yang perlu diperhatikan. Ukuran kristal menentukan resolusi spasial. Pada beberapa kasus ukuran piksel dan lubang kolimator tidak sama, sehingga mengakibatkan sulitnya menemukan posisi relatif piksel dan lubang kolimator. Hal tersebut berdampak pada penurunan resolusi.\cite{Loudos1}
+
+Artefak merupakan salah satu faktor menurunkan kualitas citra. Faktor koreksi hamburan, koreksi atenuasi, dan pergerakan pencitraan secara coincidence akan mengakibatkan munculnya artefak. Selain hal tersebut, dalam rekonstruksi citra akan terjadi artefak pula ketika algoritma yang digunakan salah.
+
+Pada penelitian ini berfokus pada pengukuran menggunakan SPECT sebagai modalitas pencitraan. Mengingat QC dari SPECT perlu dilakukan dalam hal validasi kuantitaif seperti resolusi spasial, kontras, dan inhomogenitas. Phantom Jaszczak (Jenis \textit{Deluxe Flangeless}) digunakan dalam melakukan pengukuran ini karena dapat menginvestigasi tiga properti sistem tersebut dalam satu pengukuran secara bersamaan. Sebagai justifikasi dari pengukuran akan dilakukan simulasi Monte Carlo dimana hasil dari simulasi tersebut akan dibandingkan dengan hasil pengukuran. Diharapkan dalam hasil penelitian ini mampu menghasilkan sebuah protokol yang dapat digunakan untuk keperluan medis dan hasil analisis mampu memberikan interpretasi klinis yang akan memudahkan dalam perlakuan medis selanjutnya.
+
+\section{Rumusan masalah}
+Walaupun pengukuran sistem SPECT dengan phantom Jaszczak jenis \textit{Deluxe Flangeless} sudah memiliki protokol yang terstandarisasi, namun pada kenyataannya pengukuran tersebut hasilnya bervariatif (bergantung terhadap pengalaman dari pengukur) sehingga agak sulit menentukan protokol mana yang lebih baik digunakan. Pengukuran yang dilakukan dengan dua cara; manual dan simulasi, akan dianalisis dengan menbandingkan hasilnya sehingga diharapkan hasil tersebut menjadi acuan bagi tiap rumah sakit dalam membuat protokol QC terstandarisasi. Diharapkan dari hasil tersebut mampu dipelajari pendeteksian artefak yang terjadi pada pengukuran tersebut.
+
+\section{Tujuan Penelitian}
+Tujuan dari penelitian ini adalah sebagai berikut:
+
+\begin{enumerate}[label=\alph*]
+\item Melakukan evaluasi terhadap QC dari SPECT dan verifikasi distribusi dosis untuk memperoleh citra kualitas tinggi dan proteksi radiasi.
+\item Mendeteksi artefak sehingga dapat meminimalisirnya.
+\item Algoritma yang dihasilkan dapat digunakan untuk pembuatan software analisis pengukuran SPECT sehingga menghasilkan protokol untuk beberapa rumah sakit.
+\end{enumerate}
+
+\section{Manfaat Penelitian}
+Penelitian ini bermanfaat sebagai pertimbangan dalam melakukan verifikasi QC sistem SPECT yang ada di rumah sakit Indonesia, serta validasi dari pengukuran sehingga menghasilkan protokol dan software yang dapat digunakan di rumah sakit.
+
+\section{Batasan Penelitian}
+Penelitian ini menggunakan SPECT/CT varian Siemens yang nantinya hanya menggunakan pengukuran SPECT dengan multihead gamma kamera tanpa menggunakan sistem CT. Pengukuran dengan menggunakan phantom Jazsczak jenis \textit{Flangeless Deluxe} untuk memperoleh resolusi spasial, kontras, dan inhomogenitas. Jenis radionuklida yang digunakan adalah \textsuperscript{99m}Tc. Untuk melakukan simulasi Monte Carlo menggunakan code GATE.
+
+\section{Sistematika Penulisan}
+Tesis yang akan dibuat setelah proposal terdiri dari sistematika penulisan yang terbagi menjadi beberapa sub-bab sebagai berikut:
+\begin{enumerate}[label=\alph*]
+\item BAB 1 PENDAHULUAN \\
+Bab ini memuat latar belakang, rumusan masalah, tujuan penelitian, manfaat penelitian, batasan penelitian, dan sistematika penelitian.
+\item BAB 2 TINJAUAN PUSTAKA \\
+Bab ini memuat landasan teori yang berlandaskan dari penelitian yang akan dilakukan.
+\item BAB 3 METODOLOGI PENELITIAN \\
+Bab ini membahas tentang alat dan bahan apa saja yang akan digunakan dalam penelitian serta metode penelitian yang digunakan dalam melakukan proses pengambilan data.
+\item BAB 4 HASIL DAN PEMBAHASAN \\
+Bab ini memuat tentang hasil data-data penelitian yang telah dilakukan dan membahas hasil tersebut.
+\item BAB 5 KESIMPULAN DAN SARAN \\
+Bab ini memuat tentang kesimpulan yang diambil berdasarkan hasil dari data penelitian yang telah dilakukan serta saran dan diskusi yang ditambahkan untuk penelitian lebih lanjut.
+\end{enumerate}

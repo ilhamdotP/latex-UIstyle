@@ -1,0 +1,282 @@
+% +++++++++++++++++++++++++++
+%
+% BAB 2: TEORI DASAR
+%
+% +++++++++++++++++++++++++++
+
+\chapter{TINJAUAN PUSTAKA}
+
+\section{SPECT}
+SPECT pertama kali ditemukan oleh David Kuhl dan rekannya awal tahun 1960-an, atau sekitar 10 tahun sebelum ditemukannya CT X-ray oleh Hounsfield. Walaupun demikian penggunaan SPECT dalam klinis baru dimulai pada thaun 1980-an. Berbeda dengn CT, citra SPECT dapat ditampilkan dalam citra planar kedokteran nuklir.
+
+Sistem SPECT biasanya terdiri dari beberapa kepala kamera sintilasi. Kamera tersebut mengakuisisi dan membentu citra dari distribusi radionuklida pemancar sinar-X atau gamma yang dihasilkan dari tubuh pasien. Proyeksi citra berupa data piksel umumnya diperoleh dari 180° untuk jantung dan 360° untuk yang bukan jantung. Rekonstruksi citra yang dibentuk dilakukan dengan menggerakkan kepala kamera sintilasi dari beberapa sudut dan dapat dilakukan dengan dua cara, yaitu secara kontinu selama kepala kamera bergerak, ataupun pada saat kepala kamera berhenti disudut tertentu (disebut dengan \textit{step and shoot aquisition}).
+
+Untuk memperoleh resolusi spasial tinggi pada sistem SPECT menggunakan kolimator. Pada umumnya kolimator yang digunakan adalaha kolimator jenis \textit{parallel-hole}. Seiring berkembangnya modalitas pencitraan diciptakan kolimator khusus seperti kolimator \textit{fan-beam}, yang merupakan kolimator hibrid dari kolimator konvergen dan kolimator parallel. Kolimator tersebut merupakan jenis kolimator \textit{parallel-hole} arah-y, sehingga tiap baris piksel pada proyeksi citra berkaitan dengan satu transaksial slice dari subjek. Untuk arah-x, kolimator tersebut merupakan kolimator konvergen dengan karakteristik resolusi spasial dan efisiensi lebih tinggi daripada kolimator \textit{parallel-hole}.\cite{Bushberg}
+
+Pencitraan dengan SPECT memiliki keterbatasan fundamental yang sama dengan pencitraan tomografi lainnya,diantaranya:
+
+\begin{enumerate}[label=\alph*]
+\item \textit{Collection efficiency}, yaitu berdasarkan radiasi gamma yang dipancarkan ke segala arah lapisan. Walaupun demikian untuk pencitraan yang masuk hanya ke detektor saja sehingga efisiensi sangat terbatas. Hal tersebut dapat diatasi dengan pasien dikelilingi oleh detektor.
+\item Atenuasi radiasi gamma oleh pasien akibat penyederhanaan dengan melakukan pencacahan pada dua detektor yang saling berhadapan ataupun beberapa detektor, sehingga dibutuhkan faktor koreksi. Meski demikian koreksi ketelitian atenuasi tidak diperlukan dalam SPECT.
+\item Masalah umum pada kedokteran nuklir dalam waktu pengoleksian hanya fraksi waktu radiasi gamma yang dipancarkan sehingga citra yang dibentuk dengan foton sangatlah terbatas.
+\end{enumerate}
+
+\section{Radioaktivitas}
+Sifat unsur radioaktif yang digunakan pada dasarnya merupakan proses rambang sehingga sulit dalam memprediksi peluruhan atom. Tetapi laju transformasi dari peluruhan atom radioaktif tersebut dapat diamati dalam waktu lama. Dengan demikian jumlah atom yang meluruh per satuan waktu akan sebanding dengan jumlah atom radioaktif dalam sumber, atau didefinisikan dengan:
+
+\begin{eqnarray}
+\frac{dN}{dt} \sim N \label{eq1}
+\end{eqnarray}
+
+Dari persamaan (\ref{eq1}) dapat dinyatakan konstanta peluruhan ($\lambda$):
+
+\begin{eqnarray}
+-\frac{dN}{dt} = \lambda N \label{eq2}
+\end{eqnarray}
+
+Hubungan dengan aktivitas (\textit{A}) dimana \textit{A} didefinisikan sebagai perubahan jumlah atom per satuan waktu dengan $\lambda$ adalah:
+
+\begin{eqnarray}
+A = \lambda N \label{eq3}
+\end{eqnarray}
+
+Dari persamaan (\ref{eq3}) dapat ditentukan waktu paruh ($T_{1/2}$) berdasarkan pengamatan peluruhan sehingga:
+
+\begin{eqnarray}
+T_{1/2} = \frac{\ln 2}{\lambda} = \frac{0.693}{\lambda} \label{eq4}
+\end{eqnarray}
+
+Pada dasarnya inti atom terdiri dari beberapa nukleon yang dikenal dengan proton dan neutron. Kedua nukleon tersebut diikat dengan gaya nuklir kuat yang mengakibatkan nukleon tersebut tidak keluar dari inti atom. Pada inti atom yang radioaktif, nukleon akan memiliki energi yag cukup untuk keluar dari inti atom dan menghasilkan inti atom baru. Inti atom radioaktif kemungkinan disebabkan memiliki sifat berikut:
+
+\begin{enumerate}[label=\alph*]
+\item Kelebihan proton dan neutron sehingga memungkinkan inti atom secara spontan memancarkan partikel $\alpha$ (dengan 2 proton dan 2 neutron) agar menjadi inti atom stabil.
+\item Kelebihan proton yang mengakibatkan inti atom memancarkan partikel $\beta^+$ dan melakukan penangkapan elektron dalam proses menjadi inti atom stabil.
+\item Kelebihan neutron yang mengakibatkan inti atom memancarkan partikel $\beta^-$ dan kemungkinan akan diikuti oleh proses konversi internal.
+\item Kelebihan energi akibat memancarkan partikel $\alpha$, $\beta^+$, ataupun $\beta^-$ sehingga untuk proses menuju inti atom stabil akan memancarkan $\gamma$.
+\end{enumerate}
+
+Dalam proses peluruhan menuju inti atom stabil berlaku beberapa hukum kekekalan, yaitu; kekekalan energi, kekekalan momentum linear, kekekalan momentum sudut, kekekalan muatan, kekekalan nomor massa.\cite{Bushberg}
+
+\section{Performa}
+Pengukuran kinerja kamera sintilasi merupakan salah satu indikator terbaik dalam menunjukkan kinerja klinis dari sistem pencitraan kedokteran nuklir. Baik untuk sistem SPECT maupun PET terbagi atas dua jenis pengukuran, yaitu pengukuran intrinsik dan pengukuran ekstrinsik. Pengukuran intrinsik adalah pengukuran kinerja kamera sintilasi tanpa menggunakan kolimator, sedangkan pengukuran ekstrinsik adalah pengukuran yang menggunakan kolimator. Umumnya pengukuran intrinsik lebih bermanfaat untuk membandingkan kinerja antar unit karena terpisah dari kolimator.
+
+Uniformitas dapat digunakan sebagai acuan dalam menunjukkan tanggapan terhadap radiasi uniform pada permukaan detektor. Uniformitas dengan tanggapan ideal akan memberikan hasil citra yang uniform. Pada umumnya uniformitas intrinsik diukur dengan meletakkan sumber radionuklida di depan detektor tanpa kolimator. Sistem kolimator dan defek kamera dapat dievaluasi dengan meletakkan sumber radionuklida dipermukaan kamera. Hasil dari uniformitas citra dapat dianalisis secara manual ataupun dengan komputer.
+
+Resolusi spasial merupakan ukuran kemampuan kamera dalam mencitrakan variasi spasial konsentrasi aktivitas dan membedakan obyek radioaktif yang berdekatan. Resolusi spasial dievaluasi dengan mengambil citra sumber garis untuk menentukan garis \textit{line spread function} (LSF). Kemudian ditentukan pula nilai \textit{full width at half maximum} (FWHM) dan \textit{full width at tenth maximum} serta \textit{modulation transfer function} (MTF). Resolusi spasial dari suatu sistem ($R_s$) dapat ditentukan oleh resolusi kolimator ($R_c$) dan resolusi intrinsik kamera ($R_i$) dengan mengikuti hubungan:
+
+\begin{eqnarray}
+R_s = \sqrt{{R_c}^2 - {R_i}^2} \label{eq5}
+\end{eqnarray}
+
+Beberapa jenis kolimator memiliki karakteristik dalam memperbesar dan memperkecil citra. Untuk jenis kolimator tersebut resolusi sistem dikoreksi dengan ukuran citra pada kristal atau objek yang sering disebut sebagai magnifikasi (\textit{m}), sehingga mengikuti persamaan:
+
+\begin{eqnarray}
+R_s = \sqrt{{R'_c}^2 - ({R_i}/{m})^2} \label{eq6}
+\end{eqnarray}
+
+Nilai $R'_s = R_s / m$ dan $R'_c = R_c / m$. Nilai \textit{m} ditentukan sebagai berikut:
+
+\begin{itemize}
+\item $m = 1.0$ untuk kolimator parallel
+\item $m = f / (f - x)$ untuk kolimator konvergen
+\item $m = f / (f + x)$ untuk kolimator divergen
+\end{itemize}
+
+\textit{f} adalah jarak dari kristal ke titik fokal kolimator, dan \textit{x} adalah jarak obyek dari kristal. Dari persamaan (\ref{eq6}) dapat dilihat bahwa magnifikasi kolimator menurunkan efek gangguan resolusi spasial intrinsik pada keseluruhan resolusi sistem.
+
+Linearitas spasial adalah ukuran kemampuan kamera dalam mencitrakan bentuk obyek secara teliti. Linearitas spasial dievaluasi dengan melihat citra phantom bar atau melihat citra phantom lain dari nilai kelurusan garis dalam citra.
+
+\textit{Multienergy spatial registration} atau disebut juga sebagai \textit{multiple window spatial registration} merupakan ukuran kemampuan kamera dalam mempertahankan magnifikasi citra yang sama, dan tidak tergantung pada deposit energi oleh sinar-X atau radiasi gamma dalam kristal. Foton dengan energi tinggi akan menghasilkan sinyal lebih besar dibandingkan dengan foton energi rendah. Pencitraan posisi objek ditentukan oleh normalisasi sinyal posisi X dan Y pada energi sinyal. Untuk radionuklida yang memancarkan beberapa energi foton, maka hasil citra merupakan superposisi dari beberapa citra berdasarkan energi foton tersebut yang berbeda magnifikasi.
+
+Efisiensi sistem dari kamera sintilasi merupakan fraksi radiasi gamma yang dipancarkan oleh suatu sumber yang menghasilkan cacahan pembentuk citra. Efisiensi ini sangat penting karena berhubungan dengan waktu pencacahan dan menentukan jumlah \textit{quantum  mottle} dalam citra. Efisiensi ($E_s$) dipengaruhi oleh tiga faktor, yaitu:
+
+\begin{enumerate}[label=\alph*]
+\item Efisiensi kolimator ($E_c$), yaitu fraksi foton yang dipancarkan sumber ketika menembus lubang kolimator.
+\item Efisiensi intrinsik kristal ($E_i$), yaitu fraksi foton yang menembus kolimator dan berinteraksi dengan kristal NaI(Tl). Efisiensi ini ditentukan oleh ketebalan kristal dan energi foton:
+
+\begin{eqnarray}
+E_i = 1 - e^{\mu x} \label{eq7}
+\end{eqnarray}
+
+Dengan $\mu$ adalah koefisien atenuasi kristal dan x adalah ketebalan kristal.
+\item Fraksi foton (\textit{f}) yang sampai dan berinteraksi dengan kristal pada rangkaian diskriminasi.
+\end{enumerate}
+
+Efisiensi sistem dapat dituliskan dalam persamaan:
+
+\begin{eqnarray}
+E_s=E_c\times E_i\times f \label{eq8}
+\end{eqnarray}
+
+Pada umumnya kolimator parallel energi rendah untuk semua kegiatan memiliki nilai sekitar $2 \times 10^{-4}$, dan untuk energi rendah dengan efisiensi tinggi mempunyai nilai efisiensi sekitar $1 \times 10^{-4}$.
+
+Resolusi energi suatu kamera sintilasi adalah ukuran kemampuan dalam membedakan antara interaksi deposisi berbagai energi yang berbeda dalam kristal. Kamera dengan resolusi energi superior mampu menghilangkan sebagian besar foton yang dihamburkan dalam tubuh pasien, atau foton tersebut telah mengalami interaksi \textit{coincidence}, sehingga menghasilkan citra dengan kontras yang lebih baik dan noise rambang yang relatif rendah. Resolusi energi diukur dengan menggunakan kamera dan mengekspos sumber titik radionuklida monoenergi gamma untuk memperoleh spektrum energi. Kemudian resolusi energi diperoleh dengan evaluasi FWHM \textit{photopeak spectrum} dibagi oleh energi foton dan dinyatakan dalam persentase.
+
+Untuk performa laju cacah kamera pada umumnya ditentukan oleh laju cacah yang diamati pada kehilangan cacah 20\% dan laju cacah maksimum. Kedua laju cacah tersebut diukur dengan atau tanpa koreksi hamburan. Jika faktor hamburan diperhitungkan, maka kedua laju cacah tersebut akan menurun bila diukur. Pada umumnya laju cacah tinggi dicapai dengan menurunkan resolusi spasial dan resolusi energi.\cite{Bushberg}
+
+\section{Artefak}
+Sistem pencitraan tomografi SPECT dan kamera gamma memiliki mode operasi yang kompleks. Dalam pencitraan bertambahnya koreksi hamburan, koreksi atenuasi, pergerakan pencitraan secara \textit{coincidence} ketika melakukan uji alat atau klinis mengakibatkan munculnya artefak pada citra. Artefak dapat muncul akibat dari pengaruh radiofarmaka yang digunakan, operasi kamera gamma, pasien, atau prosedur sistem komputer seperti rekonstruksi citra. Salah satu artefak yang umumnya muncul berasal dari uniformitas yang menghasilkan ring artefak pada citra. 
+
+Salah satu contoh munculnya artefak pada kamera gamma diakibatkan:
+
+\begin{enumerate}
+\item PMT (\textit{photomultiplier tube}) tidak memberikan respon sinyal yang ditangkap akibat adanya kerusakan.
+\item Pergerakan detektor.
+\item Reduksi aktivitas pada dinding septa.
+\item Kesalahan penentuan \textit{Center of Rotation} (COR).
+\end{enumerate}
+
+\begin{figure}[h]
+\includegraphics[scale=0.75]{Gambar/artifact1.png}
+\caption{Contoh hasil citra tanpa dan dengan \textit{ring} artefak akibat reduksi aktivitas pada dinding septa\cite{O'Connor1}}
+\label{artifact1}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.75]{Gambar/artifact2.png}
+\caption{10 citra diperoleh dengan perubahan sistem uniformitas selama 360$^\circ$ dimana artefak muncul antara 180$^\circ$ dan 252$^\circ$ akibat kelainan salah satu PMT\cite{O'Connor1}}
+\label{artifact2}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.75]{Gambar/artifact3.png}
+\caption{Citra dari sumber garis diperoleh dari pergerakan detektor dari jarak (A) 30 cm ke (B) 5 cm terhadap permukaan kolimator. Pemosisian hasil citra yang bagus terlihat pada (C) dan artefak akibat pergeseran sekitar 2-mm terlihat pada (D)\cite{O'Connor1}}
+\label{artifact3}
+\end{figure}
+
+Artefak pada SPECT umumnya terjadi pada rekonstruksi citra. Penggunaan kamera gamma dalam sistem SPECT akan mempengaruhi algoritma SPECT dalam melakukan rekonstruksi citra yang kemungkinan besar mengakibatkan munculnya artefak. Kesalahan perhitungan cacahan pada rekonstruksi dengan menggunakan \textit{filtered back projection} dan metode iteratif juga memunculkan artefak. Masalah sistematis tersebut harus dapat ditangani dan dioptimisasi dengan melakukan uji kelayakan sistem pencitraan SPECT.\cite{O'Connor1}\cite{O'Connor2}
+
+\begin{figure}[h]
+\includegraphics[scale=1]{Gambar/artifact4.png}
+\caption{Citra transaksial phantom Jaszczak bagian \textit{hot rod} dengan rekonstruksi (A) koreksi COR, dan (B) COR error 3.2-mm yang mengakibatkan artefak}\cite{O'Connor1}
+\label{artifact4}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.75]{Gambar/artifact5.png}
+\caption{Citra transaksial phantom Jaszczak bagian \textit{cold rod} diperoleh dengan menggunakan kolmator \textit{fan-beam} dan rekonstruksi (A) koreksi panjang focal, dan (B) Panjang focal diset tak hingga menghasilkan artefak}\cite{O'Connor1}
+\label{artifact5}
+\end{figure}
+
+\section{Monte Carlo}
+Kasus dalam kedokteran nuklir seperti peluruhan radioaktif dengan emisi energi, interaksi dengan material, pendeteksian foton, dsb merupakan fenomena keacakan (\textit{random}). Salah satu metode penyelesaian kasus random tersebut adalah dengan menggunakan metode Monte Carlo. Metode ini menjelaskan secara statistikal dengan menggunakan \textit{random numbers} sebagai variabel dasar dalam melakukan simulasi dari situasi spesifik. Dalam simulasi penggunaan random sampling yang menjelaskan proses fisika secara langsung dan akurat ditinjau dari model \textit{probability density functions} (pdfs).
+
+Untuk error statistik, banyaknya jumlah simulasi dari kejadian interaksi (seperti foton dan jalur elektron) menjadi salah satu parameter penting dalam mengestimasi perhitungan. Walaupun dikatakan menggunakan \textit{random numbers}, sebenarnya variabel yang digunakan tidak sepenuhnya acak. Variabel tersebut lebih tepat disebut sebagai \textit{pseudo-random numbers}.
+
+Kuantitas pdfs merupakan salah satu parameter penting dalam melihat informasi interaksi foton yang terjadi. Definisi dari pdfs adalah fungsi integral ternormalisasi dalam daerah [a,b]. Kumulasi pdfs dibentuk dari persamaan:
+
+\begin{eqnarray}
+cpdfs(x)=\int_{a}^{x}pdf(x' dx')  \label{eq9}
+\end{eqnarray}
+
+dengan $x$ sebagai sampel random terdistribusi uniform pada range tertentu. Perhitungan cpdf tidak selalu praktis dalam penggunaan Monte Carlo, sehingga ditambah metode rejeksi sebagai pendukung dalam melakukan simulasi. Langkah-langkah metode tersebut diantaranya:
+
+\begin{enumerate}
+\item Perhitungan $pdf_{A}(x)$ dalam range [a,b].
+\item Perhitungan $pdf_{B}(x)$ untuk metode rejeksi yang dinormalisasi sehingga nilai maksimum $pdf_{B}(x)$ sama dengan nilai $pdf_{A}(x)$.
+\item Pilih $x$ dari $pdf_{A}(x)$ secara random dengan menggunakan metode distribusi fungsi.
+\item Masukkan metode rejeksi dari nilai $pdf_{B}(x)$ setelah melakukan metode distribusi fungsi.
+\end{enumerate}
+
+Sampling interaksi foton akibat hamburan dan absorpsi foton dapat ditinjau dari data \textit{cross-section}. Interaksi foton yang terjadi dapat berupa fotolistrik, hamburan Compton, dan \textit{pair-production}.
+
+Panjang jalur foton dikalkulasi untuk menentukan apakah foton keluar dari VOI (\textit{Volume of Interest}) atau tidak. Jarak ini bergantung pada energi foton, densitas material dan komposisi material. Fungsi probabilitas diberikan:
+
+\begin{eqnarray}
+p(x)dx=\mu e^{-\mu x} dx \label{eq10}
+\end{eqnarray}
+
+Dimana $\mu$ adalah koefisien atenuasi material. Dari persamaan (\ref{eq10}) diperoleh kumulasi pdfs:
+
+\begin{eqnarray}
+cpdf(d)=\int_{0}^{d}\mu e^{-\mu} dx = [-e^{-\mu x}]_0^d=1-e^{-\mu d} \label{eq11}
+\end{eqnarray}
+
+$d$ merupakan jalur foton yang dilalui. Probabilitas jalur foton tersebut diperoleh:
+
+\begin{eqnarray}
+P(d)=1-e^{-\mu d} \label{eq12}
+\end{eqnarray}
+
+Jika diambil \textit{random number uniform} $R$ kemudian disubstitusi pada $P(d)$:
+
+\begin{eqnarray}
+R&=&1-e^{-\mu d} \nonumber \\
+d&=&-\frac{1}{\mu}\ln(1-R)=-\frac{1}{\mu}\ln(R) \label{eq13}
+\end{eqnarray}
+
+Sampel dari panjang jalur foton dan arah pada koordinat kartesian dicek dengan perhitungan pada titik akhir apakah foton keluar dari VOI atau tidak. Dengan menggunakan koordinat baru $(x',y',z')$ pada koordinat kartesian dimana:
+
+\begin{eqnarray}
+x'&=&x+d\cdot u' \label{eq14} \\
+y'&=&y+d\cdot v' \label{eq15} \\
+z'&=&z+d\cdot w' \label{eq16}
+\end{eqnarray}
+
+Asumsikan $\theta$ dan $\phi$ adalah sudut polar dan azimuthal sistem koordinat kartesian, dan $\Theta$ dan $\Phi$ adalah sudut polar dan azimuthal yang mendefinisikan perubahan arah, maka:
+
+\begin{eqnarray}
+u'&=&\cos\theta\cdot u+\sin\theta[\cos\phi\cdot w\cdot u-\sin\theta\sin\phi\cdot v]/\sqrt{1-w^2} \label{eq17} \\
+v'&=&\cos\theta\cdot v+[\sin\theta\cos\phi\cdot w\cdot v+\sin\theta\sin\phi\cdot v]/\sqrt{1-w^2} \label{eq18} \\
+w'&=&\cos\theta\cdot w-\sin\theta\cos\phi\cdot\sqrt{1-w^2} \label{eq19}
+\end{eqnarray}
+
+Jalur foton akan mengalami interaksi-interaksi tertentu. Untuk mengetahui interaksi foton tersebut ditinjau dari koefisien atenuasi:
+
+\begin{eqnarray}
+\mu=\tau+\sigma_{inc}+\sigma_{coh}+\kappa \label{eq20}
+\end{eqnarray}
+
+Dengan $\tau$ menunjukkan interaksi foton, $\sigma_{inc}$ menunjukkan interaksi Compton, $\sigma_{coh}$ menunjukkan interaksi koheren, dan $\kappa$ menunjukkan \textit{pair-production}. Persamaan (\ref{eq20}) digunakan metode distribusi fungsi dan sampel \textit{random number uniform} $R$ serta beberapa kondisi yang menunjukkan interaksi foton yang terjadi.
+
+\begin{enumerate}
+\item $R<\tau/\mu$ merupakan interaksi fotolistrik.
+\item $R<(\tau+\sigma_{inc})/\mu$ merupakan interaksi Compton.
+\item $R<(\tau+\sigma_{inc}+\sigma_{coh})/\mu$ merupakan interaksi koheren.
+\item Jika $R$ tidak memenuhi nilai 3 kondisi diatas, maka terjadi \textit{pair-production} dengan energi foton $>$ 1022 MeV.
+\end{enumerate}
+
+Energi foton dapat terabsorbsi sempurna oleh orbital elektron, sehingga jejak foton dihentikan dan energi tercatat. Namun deteksi energi foton dapat saja terjadi karena karakteristik sinar-X sekunder dan elektron Auger yang teremisi. Deposit energi yang datang pada material merupakan energi foton dikurangi energi ikat untuk melepaskan elektron.
+
+Koreksi hamburan yang diperhitungkan terdiri dari hamburan foton inkoheren dan hamburan foton koheren. Untuk hamburan foton inkoheren mengikuti persamaan:
+
+\begin{eqnarray}
+h\nu'=\frac{h\nu}{1+(h\nu/m_oc^2)(1-\cos\theta)} \label{eq21}
+\end{eqnarray}
+
+Untuk meninjau sampel energi dan arah hamburan Compton menggunakan algoritma \textit{cross-section}:
+
+\begin{eqnarray}
+d\sigma_{KN}^e=\frac{r_e^2}{2}\left(\frac{h\nu'}{h\nu}\right)^2\left(\frac{h\nu}{h\nu'}+\frac{h\nu'}{h\nu}-\sin^2\theta\right)d\Omega \label{eq22}
+\end{eqnarray}
+
+Persamaan (\ref{eq22}) disebut juga persamaan Klein-Nishina. Parameter \textit{cross-section} pada persamaan (\ref{eq22}) dapat ditinjau dengan algoritma metode rejeksi:
+
+\begin{eqnarray}
+\frac{d\sigma_{incoh}}{d\Omega}=\frac{d\sigma_{KN}}{d\Omega}\cdot S(x,Z)=\frac{d\sigma_{KN}}{d\Omega}\cdot \frac{S(x,Z)}{S_{max}(x,Z)}\cdot K(h\nu,Z) \label{eq23}
+\end{eqnarray}
+
+$S(x,Z)$ merupakan fungsi hamburan inkoheren terhadap transfer momentum ($x$) dan nomor atom ($Z$). $K(h\nu,Z)$ adalah konstanta dari Z dan energi terfiksasi. Parameter transfer momentum dihitung dan $\theta$ dianggap jika \textit{random number} $R<[S(x,Z)/S_{max}(x,Z)]$.
+
+Hamburan foton koheren ditinjau dari interaksi antar foton dan elektron dimana arah foton berubah tanpa kehilangan energi. Hamburan tersebut mengikuti perhitungan \textit{cross-section} Thomson:
+
+\begin{eqnarray}
+\frac{d\sigma}{d\Omega}=\frac{r_0^2}{2}(1+\cos^2\theta)[f^2(x,Z)]d\theta d\varphi \label{eq24}
+\end{eqnarray}
+
+Probabilitas foton terhambur pada interval $d\theta$ disekitar $\theta$:
+
+\begin{eqnarray}
+P(\theta)d\theta&=&K(h\nu,Z)\cdot G(\theta)\cdot f(x^2,Z) \label{eq25} \\
+f(x^2,Z)&=&\frac{F^2(x,Z)}{\int_{0}^{x_{max}^2}F^2(x,Z)dx^2} \label{eq26}
+\end{eqnarray}
+
+$G(\theta)$ adalah fiksasi range foton dan $f(x^2,Z)$ adalah sampel prekalkulasi fungsi distribusi. Nilai sudut hamburan dapat dihitung jika relasi $R<G(\theta)$ terpenuhi.
+
+Simulasi Monte Carlo dalam pengerjaannya membutuhkan banyak waktu, sehingga diperlukan pereduksian varians. Hal ini dilakukan untuk meningkatkan efisiensi simulasi dengan meninjau internal dosimetri dan proses biologis masuknya bahan radioaktif ke dalam suatu material. Teknik tersebut berdasarkan perhitungan foton dengan bobot.
+
+\begin{figure}[h]
+\includegraphics[scale=1]{Gambar/mc.png}
+\caption{Tahap dasar simulasi interaksi foton pada volume yang ditentukan\cite{Ljungberg}}
+\label{mc}
+\end{figure}

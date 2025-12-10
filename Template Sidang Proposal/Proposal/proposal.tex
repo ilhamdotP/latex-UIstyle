@@ -1,0 +1,99 @@
+% ==============================================================%
+%																%
+% 			TEMPLATE SKRIPSI FISIKA NUKLIR PARTIKEL				%
+% 					Universitas Indonesia						%
+%																%
+%						  Developer:								%							
+% 		   Aditya Tri Oktaviana (oktavianaadit@gmail.com)			%
+%                       Copyright 2015							%
+%																%
+% ==============================================================%
+% 						 PENDAHULUAN							%
+% ==============================================================%
+%																%
+% TIDAK PERLU DIEDIT											% 
+%																%
+%Tipe Dokumen													%
+\documentclass[a4paper,12pt]{uireport}							%
+%																%
+%Format Skripsi UI												%
+\usepackage{uithesis}											%
+%
+\usepackage{pdfpages}											%
+%
+\usepackage{enumitem}
+			%
+%
+\usepackage{multirow}
+			%
+%
+\usepackage[table]{xcolor}
+			%
+%
+\usepackage{pdfpages}
+			%
+%\usepackage{apacite}
+			%
+%
+%Memulai Dokumen												%
+\begin{document}												%
+%																%
+%Identitas														%
+\include{identitas}												%
+%																%
+%Halaman Depan													%
+\include{cover}													%
+%																%
+%Tipe nomor halaman												%
+\pagenumbering{roman}											%
+%																%
+\include{pengesahan}											%
+%						 DAFTAR ISI								%
+% ==============================================================%
+%																%
+%Membuat Halaman daftar isi										%
+\clearpage														%
+%Set Halaman daftar isi											%
+\setcounter{page}{3}											%
+%Memasukkan ke daftar isi										%
+\addcontentsline{toc}{chapter}{\numberline{}Daftar Isi}			%
+%Daftar isi														%
+\tableofcontents												%
+%																%
+%Daftar Gambar													%
+\listoffigures													%
+%Memasukkan ke daftar isi										%
+\addcontentsline{toc}{chapter}{\numberline{}Daftar Gambar} 		%
+%																%
+%Daftar tabel													%
+\listoftables													%
+%Memasukkan ke daftar isi										%
+\addcontentsline{toc}{chapter}{\numberline{}Daftar Tabel} 		%
+\clearpage														%
+%																%
+% ==============================================================%
+%					    ISI MAHAKARYA							%
+% ==============================================================%
+%																%
+%Tipe nomor halaman												%
+\pagenumbering{arabic}											%
+%																%
+%BAB 1 - PENDAHULUAN											%
+\include{bab1}													%
+%																%
+%BAB 2 - TINJAUAN PUSTAKA											%
+\include{bab2}													%
+%																%
+%BAB 3 - METODOLOGI												%
+\include{bab3}													%
+%																%
+%REFERENSI														%
+\include{referensi}
+			%
+% 																%
+
+\end{document}													%
+%																%
+% ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+%					 ~~~~~ SELESAI ~~~~~						%
+% ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%

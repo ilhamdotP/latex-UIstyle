@@ -1,0 +1,2060 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.12.15)  25 SEP 2018 20:08
+entering extended mode
+**proposal.tex
+("D:\Tesis\Template LaTex Proposal\Proposal\proposal.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("D:\Tesis\Template LaTex Proposal\Proposal\uireport.cls"
+
+LaTeX Warning: You have requested document class `uireport',
+               but the document class provides `uireport.cls'.
+
+Document Class: uireport.cls 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("D:\Tesis\Template LaTex Proposal\Proposal\uithesis.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\bahasai.ldf"
+Language: bahasa 2008/03/15 v1.0l Bahasa Indonesia support from the babel syste
+m
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+\epsfxsize=\dimen106
+\epsfysize=\dimen107
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen108
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen109
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen110
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks16
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks17
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks18
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\slashed.sty"
+Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count102
+\lst@gtempboxa=\box28
+\lst@token=\toks20
+\lst@length=\count103
+\lst@currlwidth=\dimen117
+\lst@column=\count104
+\lst@pos=\count105
+\lst@lostspace=\dimen118
+\lst@width=\dimen119
+\lst@newlines=\count106
+\lst@lineno=\count107
+\lst@maxwidth=\dimen120
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count108
+\lst@skipnumbers=\count109
+\lst@framebox=\box29
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count110
+\Gm@cntv=\count111
+\c@Gm@tempcnt=\count112
+\Gm@bindingoffset=\dimen121
+\Gm@wd@mp=\dimen122
+\Gm@odd@mp=\dimen123
+\Gm@even@mp=\dimen124
+\Gm@layoutwidth=\dimen125
+\Gm@layoutheight=\dimen126
+\Gm@layouthoffset=\dimen127
+\Gm@layoutvoffset=\dimen128
+\Gm@dimlist=\toks21
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen129
+\captionmargin@=\dimen130
+\captionwidth=\dimen131
+\caption@tempdima=\dimen132
+\caption@indent=\dimen133
+\caption@parindent=\dimen134
+\caption@hangindent=\dimen135
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2-> \vskip \abovecaptionsk
+ip \sbox \@tempboxa {#1: #2} \ifdim \wd \@tempboxa >\hsize #1: #2\par \else \gl
+obal \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil } \fi \vskip \
+belowcaptionskip .
+\c@ContinuedFloat=\count113
+Package caption Info: listings package is loaded.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count114
+\c@subtable=\count115
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\braket\braket.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\apacite\apacite.sty"
+Package: apacite 2012/02/25 v6.01 APA citation
+\c@BibCnt=\count116
+\bibleftmargin=\skip55
+\bibindent=\skip56
+\bibparsep=\skip57
+\bibitemsep=\skip58
+\biblabelsep=\skip59
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\cleveref\cleveref.sty"
+Package: cleveref 2013/03/22 v0.18.9 Intelligent cross-referencing
+Package cleveref Info: `listings' support loaded on input line 2857.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\floatrow\floatrow.sty"
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+\c@float@type=\count117
+\float@exts=\toks22
+\float@box=\box30
+\@floatcapt=\box31
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+
+\FR@everyfloat=\toks23
+\flrow@foot=\insert233
+\FB@wd=\dimen136
+\FBo@wd=\dimen137
+\FBc@wd=\dimen138
+\FBo@ht=\skip60
+\FBc@ht=\skip61
+\FBf@ht=\skip62
+\FBo@max=\skip63
+\FBc@max=\skip64
+\FBf@max=\skip65
+\c@FBl@b=\count118
+\floatbox@depth=\count119
+\c@FRobj=\count120
+\c@FRsobj=\count121
+\Xhsize=\skip66
+\sXhsize=\skip67
+\Zhsize=\skip68
+\sZhsize=\skip69
+\flrow@rowbox=\box32
+\FR@Zunitlength=\dimen139
+\c@FBcnt=\count122
+\FPOScnt=\count123
+\LTleft=\skip70
+\LTright=\skip71
+\LTleft=\skip72
+\LTright=\skip73
+\flrow@types=\toks24
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2012/08/31 v0.4t Insert pages of external PDF documents (AM)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count124
+\calc@Bcount=\count125
+\calc@Adimen=\dimen140
+\calc@Bdimen=\dimen141
+\calc@Askip=\skip74
+\calc@Bskip=\skip75
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count126
+\calc@Cskip=\skip76
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2012/08/31 v0.4t Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box33
+\AM@toc@title=\toks25
+\c@AM@survey=\count127
+\AM@templatesizebox=\box34
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip77
+\enit@outerparindent=\dimen142
+\enit@toks=\toks26
+\enit@inbox=\box35
+\enitdp@description=\count128
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen143
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen144
+\extrarowheight=\dimen145
+\NC@list=\toks27
+\extratabsurround=\skip78
+\backup@length=\skip79
+)
+\everycr=\toks28
+\minrowclearance=\skip80
+)
+LaTeX Info: Redefining \color on input line 702.
+\rownum=\count129
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+
+LaTeX Warning: Unused global option(s):
+    [12pt].
+
+("D:\Tesis\Template LaTex Proposal\Proposal\proposal.aux"
+("D:\Tesis\Template LaTex Proposal\Proposal\identitas.aux")
+("D:\Tesis\Template LaTex Proposal\Proposal\cover.aux")
+("D:\Tesis\Template LaTex Proposal\Proposal\pengesahan.aux")
+("D:\Tesis\Template LaTex Proposal\Proposal\bab1.aux")
+("D:\Tesis\Template LaTex Proposal\Proposal\bab2.aux")
+("D:\Tesis\Template LaTex Proposal\Proposal\bab3.aux"
+
+LaTeX Warning: Label `eq9' multiply defined.
+
+
+LaTeX Warning: Label `eq9@cref' multiply defined.
+
+
+LaTeX Warning: Label `eq10' multiply defined.
+
+
+LaTeX Warning: Label `eq10@cref' multiply defined.
+
+
+LaTeX Warning: Label `eq11' multiply defined.
+
+
+LaTeX Warning: Label `eq11@cref' multiply defined.
+
+
+LaTeX Warning: Label `eq12' multiply defined.
+
+
+LaTeX Warning: Label `eq12@cref' multiply defined.
+
+
+LaTeX Warning: Label `eq13' multiply defined.
+
+
+LaTeX Warning: Label `eq13@cref' multiply defined.
+
+) ("D:\Tesis\Template LaTex Proposal\Proposal\referensi.aux"))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count130
+\scratchdimen=\dimen146
+\scratchbox=\box36
+\nofMPsegments=\count131
+\nofMParguments=\count132
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count133
+\MPscratchDim=\dimen147
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
+\everyMPtoPDFconversion=\toks30
+)
+\c@lstlisting=\count136
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 398.3386pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.3386pt
+* \textheight=674.33032pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-11.91173pt
+* \headheight=0.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: floatrow package is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@maskedRefs=\count137
+
+Package apacite Warning: No suitable language definition file (bahasa.apc) foun
+d.
+
+\AtBeginShipoutBox=\box37
+("D:\Tesis\Template LaTex Proposal\Proposal\identitas.tex")
+("D:\Tesis\Template LaTex Proposal\Proposal\cover.tex"
+<Gambar/makara.png, id=1, 75.28125pt x 75.28125pt>
+File: Gambar/makara.png Graphic file (type png)
+ <use Gambar/makara.png>
+Package pdftex.def Info: Gambar/makara.png used on input line 14.
+(pdftex.def)             Requested size: 71.13884pt x 71.13884pt.
+)
+[1
+
+
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/Tesis/Template LaTex P
+roposal/Proposal/Gambar/makara.png (PNG copy)>]
+("D:\Tesis\Template LaTex Proposal\Proposal\pengesahan.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 46--57
+
+ []
+
+) [2
+
+
+
+] ("D:\Tesis\Template LaTex Proposal\Proposal\proposal.toc")
+\tf@toc=\write3
+ [3
+
+
+
+]
+("D:\Tesis\Template LaTex Proposal\Proposal\proposal.lof"
+Runaway argument?
+{\numberline {2.1}{\ignorespaces Contoh hasil citra tanpa dan dengan \ETC.
+! Paragraph ended before \@dottedtocline was complete.
+<to be read again> 
+                   \par 
+l.4 ...f ({(}\def ){)}\let \reserved@d =<\def \par
+                                                   }}{12}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+l.4 ...({(}\def ){)}\let \reserved@d =<\def \par }
+                                                  }{12}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+l.4 ...{(}\def ){)}\let \reserved@d =<\def \par }}
+                                                  {12}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Runaway argument?
+{\numberline {2.2}{\ignorespaces 10 citra diperoleh dengan perubahan \ETC.
+! Paragraph ended before \@dottedtocline was complete.
+<to be read again> 
+                   \par 
+l.5 ...f ({(}\def ){)}\let \reserved@d =<\def \par
+                                                   }}{12}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+l.5 ...({(}\def ){)}\let \reserved@d =<\def \par }
+                                                  }{12}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+l.5 ...{(}\def ){)}\let \reserved@d =<\def \par }}
+                                                  {12}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Runaway argument?
+{\numberline {2.3}{\ignorespaces Citra dari sumber garis diperoleh da\ETC.
+! Paragraph ended before \@dottedtocline was complete.
+<to be read again> 
+                   \par 
+l.6 ...f ({(}\def ){)}\let \reserved@d =<\def \par
+                                                   }}{13}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+l.6 ...({(}\def ){)}\let \reserved@d =<\def \par }
+                                                  }{13}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+l.6 ...{(}\def ){)}\let \reserved@d =<\def \par }}
+                                                  {13}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Runaway argument?
+{\numberline {2.6}{\ignorespaces Tahap dasar simulasi interaksi foton\ETC.
+! Paragraph ended before \@dottedtocline was complete.
+<to be read again> 
+                   \par 
+l.9 ...f ({(}\def ){)}\let \reserved@d =<\def \par
+                                                   }}{18}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+l.9 ...({(}\def ){)}\let \reserved@d =<\def \par }
+                                                  }{18}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+l.9 ...{(}\def ){)}\let \reserved@d =<\def \par }}
+                                                  {18}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \addvspace {10\p@ }
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+\tf@lof=\write4
+ [4
+
+] ("D:\Tesis\Template LaTex Proposal\Proposal\proposal.lot")
+\tf@lot=\write5
+ [5
+
+]
+("D:\Tesis\Template LaTex Proposal\Proposal\bab1.tex"
+Bab 1.
+! Use of \@year@ doesn't match its definition.
+\Y@Hirtl ->\@year@ 0
+                    
+l.10 ...aringan spesifik (SPECT, PET).\cite{Hirtl}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \@year@ doesn't match its definition.
+\Y@Ferreira ->\@year@ 0
+                       
+l.12 ...an biaya yang cukup tinggi.\cite{Ferreira}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \@year@ doesn't match its definition.
+\Y@Alehyani ->\@year@ 0
+                       
+l.14 ...dan pekerja sangat penting.\cite{Alehyani}
+                                                  \cite{Roshan}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \@year@ doesn't match its definition.
+\Y@Roshan ->\@year@ 0
+                     
+l.14 ...angat penting.\cite{Alehyani}\cite{Roshan}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+[1
+
+
+
+]
+! Use of \@year@ doesn't match its definition.
+\Y@D'Arienzo1 ->\@year@ 0
+                         
+l.16 ...ksi lesion dan diagnosis.\cite{D'Arienzo1}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \@year@ doesn't match its definition.
+\Y@Zhou ->\@year@ 0
+                   
+l.18 ...aktu pencitraan yang realistis.\cite{Zhou}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \@year@ doesn't match its definition.
+\Y@Wolf ->\@year@ 0
+                   
+l.20 ...titik interaksi dengan kristal.\cite{Wolf}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \@year@ doesn't match its definition.
+\Y@Loudos1 ->\@year@ 0
+                      
+l.22 ...pak pada penurunan resolusi.\cite{Loudos1}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4])
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5] ("D:\Tesis\Template LaTex Proposal\Proposal\bab2.tex"
+Bab 2.
+Missing character: There is no Â in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no ° in font cmr12!
+! Use of \@year@ doesn't match its definition.
+\Y@Bushberg ->\@year@ 0
+                       
+l.14 ...tor \textit{parallel-hole}.\cite{Bushberg}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+[6
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
+! Use of \@year@ doesn't match its definition.
+\Y@Bushberg ->\@year@ 0
+                       
+l.58 ...tan, kekekalan nomor massa.\cite{Bushberg}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 80.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+! Use of \@year@ doesn't match its definition.
+\Y@Bushberg ->\@year@ 0
+                       
+l.115 ...asial dan resolusi energi.\cite{Bushberg}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+<Gambar/artifact1.png, id=60, 405.01312pt x 248.42813pt>
+File: Gambar/artifact1.png Graphic file (type png)
+
+<use Gambar/artifact1.png>
+Package pdftex.def Info: Gambar/artifact1.png used on input line 130.
+(pdftex.def)             Requested size: 303.75908pt x 186.32063pt.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   }
+l.131 ...vitas pada dinding septa\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   3
+l.131 ...vitas pada dinding septa\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   1
+l.131 ...vitas pada dinding septa\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   2
+l.131 ...vitas pada dinding septa\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   }
+l.131 ...vitas pada dinding septa\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   3
+l.131 ...vitas pada dinding septa\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   1
+l.131 ...vitas pada dinding septa\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   2
+l.131 ...vitas pada dinding septa\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Argument of \caption@ydblarg has an extra }.
+<inserted text> 
+                \par 
+l.131 ...vitas pada dinding septa\cite{O'Connor1}}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\@caption \@captype }{\@cite }\def \reserved@b {\@cite <>}\futurelet \ETC.
+! Paragraph ended before \caption@ydblarg was complete.
+<to be read again> 
+                   \par 
+l.131 ...vitas pada dinding septa\cite{O'Connor1}}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Use of \@year@ doesn't match its definition.
+\Y@O'Connor1 ->\@year@ 0
+                        
+l.131 ...vitas pada dinding septa\cite{O'Connor1}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \@year@ doesn't match its definition.
+\Y@O'Connor1 ->\@year@ 0
+                        
+l.131 ...vitas pada dinding septa\cite{O'Connor1}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Gambar/artifact2.png, id=61, 484.81125pt x 231.86626pt>
+File: Gambar/artifact2.png Graphic file (type png)
+
+<use Gambar/artifact2.png>
+Package pdftex.def Info: Gambar/artifact2.png used on input line 136.
+(pdftex.def)             Requested size: 363.60754pt x 173.89925pt.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   }
+l.137 ... kelainan salah satu PMT\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   3
+l.137 ... kelainan salah satu PMT\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   1
+l.137 ... kelainan salah satu PMT\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   2
+l.137 ... kelainan salah satu PMT\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   }
+l.137 ... kelainan salah satu PMT\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   3
+l.137 ... kelainan salah satu PMT\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   1
+l.137 ... kelainan salah satu PMT\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   2
+l.137 ... kelainan salah satu PMT\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Argument of \caption@ydblarg has an extra }.
+<inserted text> 
+                \par 
+l.137 ... kelainan salah satu PMT\cite{O'Connor1}}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\@caption \@captype }{\@cite }\def \reserved@b {\@cite <>}\futurelet \ETC.
+! Paragraph ended before \caption@ydblarg was complete.
+<to be read again> 
+                   \par 
+l.137 ... kelainan salah satu PMT\cite{O'Connor1}}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Use of \@year@ doesn't match its definition.
+\Y@O'Connor1 ->\@year@ 0
+                        
+l.137 ... kelainan salah satu PMT\cite{O'Connor1}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \@year@ doesn't match its definition.
+\Y@O'Connor1 ->\@year@ 0
+                        
+l.137 ... kelainan salah satu PMT\cite{O'Connor1}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Gambar/artifact3.png, id=63, 350.81062pt x 151.3153pt>
+File: Gambar/artifact3.png Graphic file (type png)
+
+<use Gambar/artifact3.png>
+Package pdftex.def Info: Gambar/artifact3.png used on input line 142.
+(pdftex.def)             Requested size: 263.10732pt x 113.48619pt.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   }
+l.143 ...r 2-mm terlihat pada (D)\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   3
+l.143 ...r 2-mm terlihat pada (D)\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   1
+l.143 ...r 2-mm terlihat pada (D)\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   2
+l.143 ...r 2-mm terlihat pada (D)\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   }
+l.143 ...r 2-mm terlihat pada (D)\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   3
+l.143 ...r 2-mm terlihat pada (D)\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   1
+l.143 ...r 2-mm terlihat pada (D)\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   2
+l.143 ...r 2-mm terlihat pada (D)\cite{O'Connor1}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Argument of \caption@ydblarg has an extra }.
+<inserted text> 
+                \par 
+l.143 ...r 2-mm terlihat pada (D)\cite{O'Connor1}}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\@caption \@captype }{\@cite }\def \reserved@b {\@cite <>}\futurelet \ETC.
+! Paragraph ended before \caption@ydblarg was complete.
+<to be read again> 
+                   \par 
+l.143 ...r 2-mm terlihat pada (D)\cite{O'Connor1}}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Use of \@year@ doesn't match its definition.
+\Y@O'Connor1 ->\@year@ 0
+                        
+l.143 ...r 2-mm terlihat pada (D)\cite{O'Connor1}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \@year@ doesn't match its definition.
+\Y@O'Connor1 ->\@year@ 0
+                        
+l.143 ...r 2-mm terlihat pada (D)\cite{O'Connor1}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Use of \@year@ doesn't match its definition.
+\Y@O'Connor1 ->\@year@ 0
+                        
+l.147 ... sistem pencitraan SPECT.\cite{O'Connor1}
+                                                  \cite{O'Connor2}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \@year@ doesn't match its definition.
+\Y@O'Connor2 ->\@year@ 0
+                        
+l.147 ...an SPECT.\cite{O'Connor1}\cite{O'Connor2}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11] <Gambar/artifact4.png, id=67, 231.11343pt x 118.94438pt>
+File: Gambar/artifact4.png Graphic file (type png)
+
+<use Gambar/artifact4.png>
+Package pdftex.def Info: Gambar/artifact4.png used on input line 150.
+(pdftex.def)             Requested size: 231.11287pt x 118.94408pt.
+
+! Use of \@year@ doesn't match its definition.
+\Y@O'Connor1 ->\@year@ 0
+                        
+l.151 ...ng mengakibatkan artefak}\cite{O'Connor1}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Gambar/artifact5.png, id=68, 352.31625pt x 203.25937pt>
+File: Gambar/artifact5.png Graphic file (type png)
+
+<use Gambar/artifact5.png>
+Package pdftex.def Info: Gambar/artifact5.png used on input line 156.
+(pdftex.def)             Requested size: 264.23653pt x 152.44414pt.
+
+! Use of \@year@ doesn't match its definition.
+\Y@O'Connor1 ->\@year@ 0
+                        
+l.157 ...gga menghasilkan artefak}\cite{O'Connor1}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <D:/Tesis/Template LaTex Proposal/Proposal/Gambar/artifact1.png> <D:/Tesis/
+Template LaTex Proposal/Proposal/Gambar/artifact2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <D:/Tesis/Template LaTex Proposal/Proposal/Gambar/artifact3.png> <D:/Tesis/
+Template LaTex Proposal/Proposal/Gambar/artifact4.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14 <D:/Tesis/Template LaTex Proposal/Proposal/Gambar/artifact5.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]
+Overfull \hbox (2.61365pt too wide) in paragraph at lines 236--237
+[]\OT1/cmr/m/n/12 Jika $\OML/cmm/m/it/12 R$ \OT1/cmr/m/n/12 ti-dak me-me-nu-hi 
+ni-lai 3 kon-di-si di-a-tas, ma-ka ter-ja-di \OT1/cmr/m/it/12 pair-production
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16] <Gambar/mc.png, id=93, 390.70969pt x 417.81094pt>
+File: Gambar/mc.png Graphic file (type png)
+ <use Gambar/mc.png>
+Package pdftex.def Info: Gambar/mc.png used on input line 279.
+(pdftex.def)             Requested size: 390.70872pt x 417.80992pt.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   }
+l.280 ...a volume yang ditentukan\cite{Ljungberg}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   3
+l.280 ...a volume yang ditentukan\cite{Ljungberg}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   1
+l.280 ...a volume yang ditentukan\cite{Ljungberg}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   2
+l.280 ...a volume yang ditentukan\cite{Ljungberg}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   }
+l.280 ...a volume yang ditentukan\cite{Ljungberg}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   3
+l.280 ...a volume yang ditentukan\cite{Ljungberg}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   1
+l.280 ...a volume yang ditentukan\cite{Ljungberg}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   2
+l.280 ...a volume yang ditentukan\cite{Ljungberg}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Argument of \caption@ydblarg has an extra }.
+<inserted text> 
+                \par 
+l.280 ...a volume yang ditentukan\cite{Ljungberg}}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\@caption \@captype }{\@cite }\def \reserved@b {\@cite <>}\futurelet \ETC.
+! Paragraph ended before \caption@ydblarg was complete.
+<to be read again> 
+                   \par 
+l.280 ...a volume yang ditentukan\cite{Ljungberg}}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Use of \@year@ doesn't match its definition.
+\Y@Ljungberg ->\@year@ 0
+                        
+l.280 ...a volume yang ditentukan\cite{Ljungberg}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Use of \@year@ doesn't match its definition.
+\Y@Ljungberg ->\@year@ 0
+                        
+l.280 ...a volume yang ditentukan\cite{Ljungberg}}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18 <D:/Tesis/Template LaTex Proposal/Proposal/Gambar/mc.png>]
+("D:\Tesis\Template LaTex Proposal\Proposal\bab3.tex"
+Bab 3.
+<Gambar/jaszsczak.jpg, id=103, 3131.7pt x 4175.6pt>
+File: Gambar/jaszsczak.jpg Graphic file (type jpg)
+ <use Gambar/jaszsczak.jpg>
+Package pdftex.def Info: Gambar/jaszsczak.jpg used on input line 22.
+(pdftex.def)             Requested size: 156.59416pt x 208.79224pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20 <D:/Tesis/Template LaTex Proposal/Proposal/Gambar/jaszsczak.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23] <Gambar/simulation1.png, id=120, 297.36093pt x 301.125pt>
+File: Gambar/simulation1.png Graphic file (type png)
+
+<use Gambar/simulation1.png>
+Package pdftex.def Info: Gambar/simulation1.png used on input line 108.
+(pdftex.def)             Requested size: 148.6801pt x 150.56212pt.
+
+<Gambar/simulation2.png, id=121, 616.55344pt x 346.29375pt>
+File: Gambar/simulation2.png Graphic file (type png)
+
+<use Gambar/simulation2.png>
+Package pdftex.def Info: Gambar/simulation2.png used on input line 114.
+(pdftex.def)             Requested size: 369.9349pt x 207.77785pt.
+
+<Gambar/simulation3.png, id=122, 566.115pt x 178.41656pt>
+File: Gambar/simulation3.png Graphic file (type png)
+
+<use Gambar/simulation3.png>
+Package pdftex.def Info: Gambar/simulation3.png used on input line 120.
+(pdftex.def)             Requested size: 396.2778pt x 124.89072pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Gambar/simulation4.png, id=123, 616.55344pt x 346.29375pt>
+File: Gambar/simulation4.png Graphic file (type png)
+
+<use Gambar/simulation4.png>
+Package pdftex.def Info: Gambar/simulation4.png used on input line 126.
+(pdftex.def)             Requested size: 431.58446pt x 242.40396pt.
+
+Overfull \hbox (33.24586pt too wide) in paragraph at lines 126--127
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24 <D:/Tesis/Template LaTex Proposal/Proposal/Gambar/simulation1.png> <D:/Tesi
+s/Template LaTex Proposal/Proposal/Gambar/simulation2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25 <D:/Tesis/Template LaTex Proposal/Proposal/Gambar/simulation3.png> <D:/Tesi
+s/Template LaTex Proposal/Proposal/Gambar/simulation4.png>]
+<Gambar/diagpen.png, id=132, 656.4525pt x 737.75626pt>
+File: Gambar/diagpen.png Graphic file (type png)
+
+<use Gambar/diagpen.png>
+Package pdftex.def Info: Gambar/diagpen.png used on input line 139.
+(pdftex.def)             Requested size: 328.22545pt x 368.87723pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26 <D:/Tesis/Template LaTex Proposal/Proposal/Gambar/diagpen.png>]
+("D:\Tesis\Template LaTex Proposal\Proposal\referensi.tex"
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.16 \bibitem{Hirtl}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.16 \bibitem{Hirtl}
+                    
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.22 \bibitem{Ferreira}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.22 \bibitem{Ferreira}
+                       
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.28 \bibitem{Alehyani}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.28 \bibitem{Alehyani}
+                       
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.34 \bibitem{Roshan}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.34 \bibitem{Roshan}
+                     
+I'm forgetting what you said and using zero instead.
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.40 \bibitem{D'Arienzo1}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.40 \bibitem{D'Arienzo1}
+                         
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.46 \bibitem{Zhou}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.46 \bibitem{Zhou}
+                   
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.52 \bibitem{Wolf}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.52 \bibitem{Wolf}
+                   
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.58 \bibitem{Loudos1}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.58 \bibitem{Loudos1}
+                      
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.64 \bibitem{Bushberg}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.64 \bibitem{Bushberg}
+                       
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.70 \bibitem{O'Connor1}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.70 \bibitem{O'Connor1}
+                        
+I'm forgetting what you said and using zero instead.
+
+[27
+
+
+
+]
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.76 \bibitem{O'Connor2}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.76 \bibitem{O'Connor2}
+                        
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.83 \bibitem{D'Arienzo2}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.83 \bibitem{D'Arienzo2}
+                         
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.89 \bibitem{Ng}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.89 \bibitem{Ng}
+                 
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.96 \bibitem{Greffier}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.96 \bibitem{Greffier}
+                       
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.103 \bibitem{Qi}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.103 \bibitem{Qi}
+                  
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.110 \bibitem{Buvat}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.110 \bibitem{Buvat}
+                     
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.116 \bibitem{Ljungberg}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.116 \bibitem{Ljungberg}
+                         
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.122 \bibitem{Loudos2}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.122 \bibitem{Loudos2}
+                       
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.128 \bibitem{Strulab}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.128 \bibitem{Strulab}
+                       
+I'm forgetting what you said and using zero instead.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28]
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.134 \bibitem{Assie}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.134 \bibitem{Assie}
+                     
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.140 \bibitem{Khosravi}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.140 \bibitem{Khosravi}
+                        
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+<argument> \@listctr 
+                     
+l.146   \bibitem{Gilliam}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.146   \bibitem{Gilliam}
+                         
+I'm forgetting what you said and using zero instead.
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29] ("D:\Tesis\Template LaTex Proposal\Proposal\proposal.aux"
+("D:\Tesis\Template LaTex Proposal\Proposal\identitas.aux")
+("D:\Tesis\Template LaTex Proposal\Proposal\cover.aux")
+("D:\Tesis\Template LaTex Proposal\Proposal\pengesahan.aux")
+("D:\Tesis\Template LaTex Proposal\Proposal\bab1.aux")
+("D:\Tesis\Template LaTex Proposal\Proposal\bab2.aux")
+("D:\Tesis\Template LaTex Proposal\Proposal\bab3.aux")
+("D:\Tesis\Template LaTex Proposal\Proposal\referensi.aux"))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 9346 strings out of 493921
+ 146822 string characters out of 3147278
+ 254550 words of memory out of 3000000
+ 12451 multiletter control sequences out of 15000+200000
+ 9171 words of font info for 33 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 43i,12n,45p,1114b,516s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmti12.pfb>
+Output written on proposal.pdf (34 pages, 4592590 bytes).
+PDF statistics:
+ 196 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,416 @@
+% +++++++++++++++++++++++++++
+%
+% LAMPIRAN-LAMPIRAN
+%
+% +++++++++++++++++++++++++++
+
+\appendix
+
+\chapter{Topologi}
+Topologi merupakan salah satu dari cabang matematika yang mempelajari karakteristik dari suatu objek dengan penggambaran fungsi kontinu. Materi topologi berhubungan dengan objek yang terdeformasi tanpa merusak kualitas dari objek tersebut, dapat dikatakan bentuk dari objek tersebut invarian terhadap suatu deformasi. Tinjauan kasus topologi pada objek tidak meliputi ukuran, bentuk, jarak, ataupun sudut, topologi hanya meninjau perubahan pada transformasi yang kontinu. Objek yang diregangkan, diremas, dan diputar pada bagian tertentu tidak merubah topologi, tetapi objek yang dirobek, digunting, dan ditempel pada objek lain merubah topologi. Topologi berkaitan dengan teori \textit{set} dalam matematika\cite{Handhika},\cite{Katok}.
+
+Misalkan \textit{set} $X$ merupakan \textit{set} yang tidak kosong. Kumpulan \textit{subset} $T$ pada $X$ dikatakan topologi di $X$ jika:
+\begin{enumerate}
+\item $X$ dan \textit{set} kosong, $\emptyset$, bagian dari \textit{T}.
+\item Gabungan semua angka berhingga atau tak hingga dalam \textit{set} di $T$ merupakan bagian juga dari $T$.
+\item Irisan dari kedua \textit{set} di $T$ bagian juga dari $T$.
+\end{enumerate}
+Pasangan $(X,T)$ disebut sebagai ruang topologikal. \\
+Contoh 1: \\
+Misalkan $X=\{a,b,c,d,e,f\}$ dan $T_1=\{X,\emptyset,\{a\},\{c,d\}\{a,c,d\},\{b,c,d,e,f\}\}$, maka $T_1$ dapat dikatakan topologi terhadap $X$. \\
+Contoh 2: \\
+Misalkan $X=\{a,b,c,d,e\}$ dan $T_2=\{X,\emptyset,\{a\},\{c,d\}\{a,c,e\},\{b,c,d\}\}$, maka $T_2$ dapat dikatakan bukan topologi terhadap $X$ karena:
+\begin{eqnarray}
+\{c,d\}\cup\{a,c,e\}=\{a,c,d,e\}
+\end{eqnarray}
+Dapat dilihat bahwa gabungan antara dua anggota $T_2$ tidak termasuk kedalam $T_2$. \\
+Contoh 3: \\
+Misalkan $X=\{a,b,c,d,e,f\}$ dan $T_3=\{X,\emptyset,\{a\},\{f\}\{a,f\},\{a,c,f\}\{b,c,d,e,f\}\}$, maka $T_3$ dapat dikatakan bukan topologi terhadap $X$ karena:
+\begin{eqnarray}
+\{a,c,f\}\cap\{b,c,d,e,f\}=\{c,f\}
+\end{eqnarray}
+Dapat dilihat bahwa irisan antara dua anggota $T_3$ tidak termasuk kedalam $T_3$.
+
+Apabila $X$ merupakan \textit{set} yang tidak kosong dan $T$ merupakan kumpulan masing-masing \textit{subset} dari $X$, maka $T$ dikatakan topologi diskrit pada $X$. Dan apabila $T=\{X,\emptyset\}$, maka $T$ disebut sebagai topologi indiskrit.
+
+Istilah dari topologi yang mungkin akan sering ditemui adalah \textit{open sets}, \textit{closed sets}, dan \textit{clopen sets}. Misalkan $(X,T)$ merupakan ruang topologikal, maka setiap anggota dari $T$ dapat dikatakan \textit{open sets}. \textit{Subset} $S$ dikatakan sebagai \textit{closed set} pada $(X,T)$ jika \textit{subset} tersebut hanya sebagai pelengkap pada $X$, untuk \textit{subset} $X\setminus S$ dikatakan \textit{open} pada $(X,T)$. Pada contoh 1, bagian dari \textit{closed sets} adalah: $\emptyset,X,\{b,c,d,e,f\},\{a,b,e,f\},\{b,e,f\}$ dan $\{a\}$.
+
+Sebuah \textit{set} dapat diakatan pula \textit{open} dan \textit{closed}, atau tidak keduanya, tergantung dari kasus yang ditinjau. Jika kita tinjau contoh 1:
+\begin{enumerate}
+\item \textit{Set} $\{a\}$ keduanya \textit{open} dan \textit{closed}.
+\item \textit{Set} $\{b,c\}$ keduanya tidak \textit{open} dan \textit{closed}.
+\item \textit{Set} $\{c,d\}$ adalah \textit{open}, tetapi tidak \textit{closed}
+\item \textit{Set} $\{a,b,e,f\}$ adalah \textit{closed}, tetapi tidak \textit{open}.
+\end{enumerate}
+\textit{Set} yang keduanya adalah \textit{open} dan \textit{closed} disebut sebagai \textit{clopen sets}. Pada setiap ruang topologikal $(X,T)$, $X$ dan $\emptyset$ keduanya adalah \textit{clopen}. Pada topologi diskrit, semua \textit{subset} dari $X$ adalah \textit{clopen}.
+Pada topologi indiskrit, \textit{clopen} hanya \textit{subset} dari $X$ dan $\emptyset$ \cite{Morris}.
+
+\chapter{Grup $SU(2)$}
+Tinjau grup $U(2)$:
+\begin{eqnarray}
+A&=&\begin{pmatrix} a & b \\ c & d \end{pmatrix} \nonumber \\
+A^\dagger&=&\begin{pmatrix} a^* & b^* \\ c^* & d^* \end{pmatrix} ,
+\end{eqnarray}
+Karena matriks $A$ memenuhi sifat unitari, maka:
+\begin{eqnarray}
+A^\dagger A&=&\textbf{1} \\
+a&=&a_R+ia_I \\
+b&=&b_R+ib_I \\
+c&=&c_R+ic_I \\
+d&=&d_R+id_I
+\end{eqnarray}
+Sehingga dapat ditulis:
+\begin{eqnarray}
+A^\dagger A&=&\begin{pmatrix} a^* & b^* \\ c^* & d^* \end{pmatrix} \begin{pmatrix} a & b \\ c & d \end{pmatrix} \nonumber \\
+&=&\begin{pmatrix} |a|^2+|c|^2 & a^*b+c^*d \\ b^*a+d^*c & |b|^2+|d|^2 \end{pmatrix}=\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} ,
+\end{eqnarray}
+Dari kondisi diatas kita ketahui:
+\begin{eqnarray}
+|a|^2+|c|^2&=&|b|^2+|d|^2=1 \\
+a^*b+c^*d&=&b^*a+d^*c ,
+\end{eqnarray}
+Dari matriks $A$ dapat diketahui:
+\begin{eqnarray}
+A^\dagger&=&A^{-1} \\
+\det{A}&=&ad-bc \\
+A^{-1}&=&\frac{1}{\det{A}}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}
+\end{eqnarray}
+Grup $SU(2)$ memiliki nilai determinan $|1|$, sehingga:
+\begin{eqnarray}
+\det{A}&=&1 \\
+A^{-1}&=&\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}=\begin{pmatrix} a^* & c^* \\ b^* & d^* \end{pmatrix} \\
+A&=&\begin{pmatrix} a & b \\ -b^* & a^* \end{pmatrix} ; A^\dagger=\begin{pmatrix} a^* & -b \\ b^* & a \end{pmatrix} \\
+A^\dagger A&=&\begin{pmatrix} |a|^2+|b|^2 & 0 \\ 0 & |a|^2+|b|^2 \end{pmatrix} ,
+\end{eqnarray}
+Tinjau kasus \textit{infinitesimal} dimana:
+\begin{eqnarray}
+A&=&\textbf{1}+id\alpha_jx_j+... \nonumber \\
+\begin{pmatrix} a & b \\ -b^* & a^* \end{pmatrix}&=&\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}+... \nonumber \\
+A&=&\begin{pmatrix} (1+\frac{i}{2}a_{11}) & \frac{1}{2}(b_{12}+ia_{12}) \\ -\frac{1}{2}(b_{12}-ia_{12}) & (1-\frac{i}{2}a_{11}) \end{pmatrix} \nonumber \\
+&=&\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}+\frac{i}{2}a_{11}\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}+\frac{i}{2}a_{12}\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} \nonumber \\
+&&+\frac{i}{2}b_{12}\begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix} \nonumber \\
+&=&\textbf{1}+\frac{i}{2}a_{11}\sigma_z+\frac{i}{2}a_{12}\sigma_x+\frac{i}{2}b_{12}\sigma_y ,
+\end{eqnarray}
+Definisi dari $\sigma_i$ dengan $i=x,y,z$ adalah matriks Pauli, yang merupakan operator spin pada tinjauan mekanika kuantum.
+\begin{eqnarray}
+\sigma_x=\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} , \sigma_y=\begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix} , \sigma_z=\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} ,
+\end{eqnarray}
+Dengan demikian spin adalah generator grup $SU(2)$. Identitas dari operator spin dapat terlihat dibawah ini.
+\begin{eqnarray}
+\sigma_i^2&=&\textbf{1}\rightarrow\sigma_x\sigma_x=\sigma_y\sigma_y=\sigma_z\sigma_z , \\
+\sigma_i\sigma_j&=&-\sigma_j\sigma_i , \\
+\sigma_j\sigma_k&=&i\epsilon_{jkl}\sigma_l , \\
+\sigma_i\sigma_j+\sigma_j\sigma_i&=&0 ,
+\end{eqnarray}
+\begin{eqnarray}
+[\sigma_j,\sigma_k]&=&2i\epsilon_{ijk}\sigma_l , \\
+\{\sigma_i,\sigma_j\}&=&2\delta_{ij} ,
+\end{eqnarray}
+Untuk identitas komutator operator spin $(\textbf{S}=\frac{\hbar}{2}\boldsymbol{\sigma})$ memiliki kesamaan pada komutator kecepatan angular dalam mekanika kuantum.
+\begin{eqnarray}
+[S_j,S_k]=i\hbar\epsilon_{jkl}S_l\Leftrightarrow [J_j,J_k]=i\hbar\epsilon_{jkl}J_l ,
+\end{eqnarray}
+
+\chapter{Bogomolnyi-Prasad-Sommerfield (BPS)}
+Dalam menyederhanakan kasus yang berkaitan dengan topologi ketika berhadapan dengan sebuah solusi pada persamaan nonlinier, biasanya digunakan persamaan Bogomolnyi. Persamaan Bogomolnyi adalah persamaan diferensial orde satu yang tereduksi dari persamaan diferensial orde dua atau lebih. Hal tersebut dilakukan guna mencari solusi analitik dari soliton, yang biasanya terdiri dari persamaan diferensial orde dua atau lebih. Persamaan Bogomolnyi tidak bergantung dengan waktu, sehingga solusi yang dihasilkan dari persamaan ini merupakan solusi energi statik paling stabil yang seminimal mungkin. Solusi persamaan Bogomolnyi pada energi statik stabil yang seminimal mungkin disebut dengan keadaan solusi BPS (Bogomolnyi-Prasad-Sommerfield)\cite{Manton}.
+
+Contoh pada kasus \textit{kinks/Domain Walls} pada dimensi $(1+1)$, diberikan:
+\begin{eqnarray}
+\mathcal{L}=\frac{1}{2}\partial_\mu\phi\partial^\mu\phi-V(\phi) \label{eq:kink} ,
+\end{eqnarray}
+Dengan potensial:
+\begin{eqnarray}
+V(\phi)=\frac{\lambda}{4}(\phi^2-\nu^2)^2 \label{eq:potentialkink} ,
+\end{eqnarray}
+Berdasarkan persamaan euler-lagrange, diperoleh:
+\begin{eqnarray}
+-\frac{\partial V}{\partial\phi}-\partial_\mu\partial^\mu\phi=0 \label{eq:eulerlagrangepotential} ,
+\end{eqnarray}
+Persamaan (\ref{eq:eulerlagrangepotential}) berada dalam keadaaan statik ketika:
+\begin{eqnarray}
+\phi''=\frac{d^2\phi}{dx^2}=\frac{\partial V}{\partial\phi} \label{eq:secondderivation1} ,
+\end{eqnarray}
+Potensial (\ref{eq:potentialkink}) diturunkan terhadap $\phi$ diperoleh:
+\begin{eqnarray}
+\frac{\partial V}{\partial\phi}=\lambda\phi(\phi^2-\nu^2) \label{eq:derivation1} ,
+\end{eqnarray}
+Dengan memasukkan persamaan (\ref{eq:derivation1}) pada (\ref{eq:secondderivation1}) dapat ditulis:
+\begin{eqnarray}
+\phi''-\lambda\phi(\phi^2-\nu^2)=0 \label{eq:eulerlagrange2} ,
+\end{eqnarray}
+Persamaan (\ref{eq:kink}) divariasikan terhadap tensor metrik:
+\begin{eqnarray}
+\mathcal{L}&=&\frac{1}{2}g^{\mu\nu}\partial_\mu\phi\partial_\nu\phi-V(\phi) \nonumber \\
+\delta_g\mathcal{L}&=&\frac{1}{2}(\delta_gg^{\mu\nu})\partial_\mu\phi\partial_\nu\phi \nonumber \\
+\delta_g\mathcal{L}&=&-\frac{1}{2}g^{\mu\rho}(\delta g_{\rho\sigma})g^{\sigma\nu}\partial_\mu\phi\partial_\nu\phi \label{eq:variation1} ,
+\end{eqnarray}
+Dari (\ref{eq:variation1}) berdasarkan pendekatan teori relativitas umum didefinisikan:
+\begin{eqnarray}
+T^{\mu\nu}=-\mathcal{L}+\partial_\mu\phi\partial_\nu\phi ,
+\end{eqnarray}
+Kemudian dicari nilai $T^{00}$ yang didefinisikan sebagai densitas energi:
+\begin{eqnarray}
+\mathcal{E}=T^{00}=-\mathcal{L}=\frac{1}{2}\phi'^2+V \label{eq:densityenergy} ,
+\end{eqnarray}
+Dimana $\phi'^2=\partial_\mu\phi\partial_\nu\phi$. Dari (\ref{eq:densityenergy}), kita dapat menghitung energi:
+\begin{eqnarray}
+E&=&\int dx T^{00} \nonumber \\
+&=&\frac{1}{2}\int dx[\phi'^2+2V] \nonumber \\
+&=&\frac{1}{2}\int dx[(\phi'-\sqrt{2V})^2+\sqrt{2V}\phi'] \label{eq:energy1} ,
+\end{eqnarray}
+Persamaan (\ref{eq:energy1}) memiliki suku yang terdiri dari kuadrat orde dua, dimana nilai kuadrat orde dua selalu positif. Karena alasan tersebut dengan $(\phi'-\sqrt{2})^2\geq 0$ maka (\ref{eq:energy1}) dapat ditulis:
+\begin{eqnarray}
+E&\geq&\frac{1}{2}\int dx\phi'\sqrt{2V} \nonumber \\
+E&\geq& E_{min} \label{eq:energy2} ,
+\end{eqnarray}
+Berdasarkan perhitungan energi pada (\ref{eq:energy2}), persamaan (\ref{eq:kink}) memiliki solusi BPS ketika:
+\begin{eqnarray}
+\phi'=\sqrt{2V} \label{eq:BPS} ,
+\end{eqnarray}
+Persamaan (\ref{eq:BPS}) diturunkan terhadap $x$:
+\begin{eqnarray}
+\phi'^2&=&2V \nonumber \\
+\frac{d}{dx}(\phi'^2)&=&\frac{d}{dx}[2V(\phi(x))] \nonumber \\
+2\phi'\phi''&=&2\phi'\frac{dV}{d\phi} \nonumber \\
+\phi''&=&\frac{dV}{d\phi} ,
+\end{eqnarray}
+Terlihat bahwa $\phi'$ yang diturunkan terhadap $x$ akan kembali ke kondisi (\ref{eq:eulerlagrange2}), sehingga terbukti persamaan (\ref{eq:kink}) memiliki solusi persamaan orde dua yang sama dengan solusi persamaan orde satu, dapat dikatakan bahwa persamaan (\ref{eq:kink}) memiliki solusi BPS.
+
+Pada kasus Skyrmion, tinjau persamaan (\ref{eq:staticenergy}) pada Lagrangian asli Skyrmion dengan menulis ulang suku integran kuadrat menjadi:
+\begin{eqnarray}
+E_{statik}=\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\operatorname{Tr}\left[\left(R_a\pm\frac{1}{4}\epsilon_{abc}[R_b,R_c]\right)^2\right] \label{eq:squaredintegran} ,
+\end{eqnarray}
+Dengan $a,b,c$ adalah indeks boneka. Dari persamaan (\ref{eq:squaredintegran}) diketahui:
+\begin{eqnarray}
+\left(R_a\pm\frac{1}{4}\epsilon_{abc}[R_b,R_c]\right)^2=R_a^2\pm\frac{1}{2}R_a\epsilon_{abc}[R_b,R_c]+\frac{1}{16}(\epsilon_{abc}[R_b,R_c])^2 \label{squaredterm1} ,
+\end{eqnarray}
+Dan pada (\ref{squaredterm1}):
+\begin{eqnarray}
+\epsilon_{abc}[R_b,R_c]&=&\epsilon_{abc}[R_bR_c-R_cR_b] \nonumber \\
+&=&\epsilon_{abc}R_bR_c-\epsilon_{abc}R_cR_b \nonumber \\
+&=&\epsilon_{abc}R_bR_c-\epsilon_{acb}R_bR_c \nonumber \\
+&=&\epsilon_{abc}R_bR_c-(-\epsilon_{abc})R_bR_c \nonumber \\
+&=&\epsilon_{abc}R_bR_c+\epsilon_{abc}R_bR_c \nonumber \\
+&=&2\epsilon_{abc}R_bR_c \label{levicivita1} ,
+\end{eqnarray}
+Dimana $\epsilon_{abc}=-\epsilon_{acb}$, kemudian kita peroleh:
+\begin{eqnarray}
+(\epsilon_{abc}[R_b,R_c])^2=\epsilon_{abc}[R_b,R_c]\epsilon_{ade}[R_d,R_e]=2\epsilon_{abc}R_bR_c2\epsilon_{ade}R_dR_e \label{levicivita2} ,
+\end{eqnarray}
+Masukkan (\ref{levicivita1}) dan (\ref{levicivita2}) kedalam (\ref{squaredterm1}):
+\begin{eqnarray}
+\left(R_a\pm\frac{1}{4}\epsilon_{abc}[R_b,R_c]\right)^2&=&R_a^2\pm\frac{1}{2}R_a2\epsilon_{abc}R_bR_c+\frac{1}{16}(2\epsilon_{abc}R_bR_c2\epsilon_{ade}R_dR_e) \nonumber \\
+&=&R_a^2\pm R_a2\epsilon_{abc}R_bR_c+\frac{1}{4}(\epsilon_{abc}R_bR_c\epsilon_{ade}R_dR_e) \label{squaredterm2} ,
+\end{eqnarray}
+Dari (\ref{levicivita2}) diketahui:
+\begin{eqnarray}
+2\epsilon_{abc}R_bR_c2\epsilon_{ade}R_dR_e=\epsilon_{abc}[R_b,R_c]\epsilon_{ade}[R_d,R_e] \label{levicivita3} , \\
+\epsilon_{abc}R_bR_c\epsilon_{ade}R_dR_e=\frac{1}{2}\epsilon_{abc}[R_b,R_c]\frac{1}{2}\epsilon_{ade}[R_d,R_e] \label{levicivita4} ,
+\end{eqnarray}
+Sehingga (\ref{squaredterm2}) menjadi:
+\begin{eqnarray}
+\left(R_a\pm\frac{1}{4}\epsilon_{abc}[R_b,R_c]\right)^2&=&R_a^2\pm R_a2\epsilon_{abc}R_bR_c+\frac{1}{4}\left(\frac{1}{2}\epsilon_{abc}[R_b,R_c]\frac{1}{2}\epsilon_{ade}[R_d,R_e]\right) \nonumber \\
+&=&R_a^2\pm R_a2\epsilon_{abc}R_bR_c+\frac{1}{4}\left(\frac{1}{4}\epsilon_{abc}\epsilon_{ade}[R_b,R_c][R_d,R_e]\right) \nonumber \\
+&=&R_a^2\pm R_a2\epsilon_{abc}R_bR_c+\frac{1}{16}([\delta_{bd}\delta_{ce}-\delta_{be}\delta_{cd}][R_b,R_c][R_d,R_e]) \nonumber \\
+&=&R_a^2\pm R_a2\epsilon_{abc}R_bR_c+\frac{1}{16}(\delta_{bd}\delta_{ce}[R_b,R_c][R_d,R_e] \nonumber \\
+&&-\delta_{be}\delta_{cd}[R_b,R_c][R_d,R_e]) \nonumber \\
+&=&R_a^2\pm R_a2\epsilon_{abc}R_bR_c+\frac{1}{16}([R_b,R_c][R_b,R_c]-[R_b,R_c][R_c,R_b]) \nonumber \\
+&=&R_a^2\pm R_a2\epsilon_{abc}R_bR_c+\frac{1}{16}([R_b,R_c][R_b,R_c]+[R_b,R_c][R_b,R_c]) \nonumber \\
+&=&R_a^2\pm R_a2\epsilon_{abc}R_bR_c+\frac{1}{16}(2[R_b,R_c][R_b,R_c]) \nonumber \\
+&=&R_a^2\pm R_a2\epsilon_{abc}R_bR_c+\frac{1}{8}([R_b,R_c][R_b,R_c]) \label{squaredterm3} ,
+\end{eqnarray}
+Dengan memasukkan (\ref{squaredterm3}) ke persamaan (\ref{eq:squaredintegran}) diperoleh:
+\begin{eqnarray}
+E_{statik}&=&\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\operatorname{Tr}\left[\left(R_a^2\pm R_a\epsilon_{abc}R_bR_c+\frac{1}{8}\epsilon_{abc}[R_b,R_c]^2\right)\right] \nonumber \\
+&=&\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\operatorname{Tr}(R_a^2)\pm\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\epsilon_{abc}\operatorname{Tr}(R_aR_bR_c) \nonumber \\
+&&+\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\operatorname{Tr}\left(\frac{1}{8}\epsilon_{abc}[R_b,R_c]^2\right) \nonumber \\
+&=&\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\operatorname{Tr}\left(R_a^2+\frac{1}{8}\epsilon_{abc}[R_b,R_c]^2\right) \nonumber \\
+&&\pm\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\epsilon_{abc}\operatorname{Tr}(R_aR_bR_c) \label{eq:staticsquaredintegran1} ,
+\end{eqnarray}
+Agar persamaan (\ref{eq:staticsquaredintegran1}) sama dengan persamaan (\ref{eq:scalestatic}), maka perlu ditambahkan "sesuatu" suku.
+\begin{eqnarray}
+E_{statik}&=&\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\operatorname{Tr}\left(R_a^2+\frac{1}{8}\epsilon_{abc}[R_b,R_c]^2\right) \nonumber \\
+&&\pm\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\epsilon_{abc}\operatorname{Tr}(R_aR_bR_c) \nonumber \\
+&&\mp\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\epsilon_{abc}\operatorname{Tr}(R_aR_bR_c) \label{eq:staticsquaredintegran2} ,
+\end{eqnarray}
+Sehingga persamaan (\ref{eq:scalestatic}) dapat ditulis:
+\begin{eqnarray}
+E_{statik}&=&\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\operatorname{Tr}\left[\left(R_a\pm\frac{1}{4}\epsilon_{abc}[R_b,R_c]\right)^2\right. \nonumber \\
+&&\left.\pm\epsilon_{abc}\operatorname{Tr}(R_aR_bR_c)\right] \label{eq:staticsquaredintegran3} , \\
+E_{statik}&=&\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\operatorname{Tr}\left[\left(R_a\pm\frac{1}{4}\epsilon_{abc}[R_b,R_c]\right)^2\right] \nonumber \\
+&&\mp\frac{1}{24\pi^2}\int d^3x\epsilon_{abc}\operatorname{Tr}(R_aR_bR_c) \label{eq:staticsquaredintegran4} ,
+\end{eqnarray}
+
+Sekarang tinjau persamaan (\ref{eq:staticsquaredintegran4}), untuk memperoleh persamaan Bogomolnyi, suku integran kuadrat pada persamaan dianggap nol, sehingga:
+\begin{eqnarray}
+E_{statik}\geq\mp\frac{1}{24\pi^2}\int d^3x\epsilon_{abc}\operatorname{Tr}(R_aR_bR_c) \label{eq:staticsquaredintegran5} ,
+\end{eqnarray}
+Agar memiliki nilai positif pada integral pertama maka:
+\begin{eqnarray}
+E_{statik}\geq-\frac{1}{24\pi^2}\int d^3x\epsilon_{abc}\operatorname{Tr}(R_aR_bR_c) \label{eq:staticsquaredintegran6} ,
+\end{eqnarray}
+Integral pada persamaan (\ref{eq:staticsquaredintegran6}) didefinisikan sebagai:
+\begin{eqnarray}
+B=-\frac{1}{24\pi^2}\int d^3x\epsilon_{abc}\operatorname{Tr}(R_aR_bR_c) \label{eq:topologicalcharge} ,
+\end{eqnarray}
+Dimana $B$ merupakan disebut sebagai muatan topologi. Hasil perhitungan diatas dapat ditulis:
+\begin{eqnarray}
+E_{statik}\geq B
+\end{eqnarray}
+Hal tersebut dapat menunjukkan bahwa Skyrmion tidak memiliki solusi BPS.
+
+\chapter{Teorema Derrick}
+Pada setiap teori medan, fungsi energi untuk medan statik yang divariasikan terhadap transformasi ruang tidak pernah bernilai nol untuk tiap konfigurasi medan non-vakum. Hal tersebut mengindikasikan bahwa tidak ada solusi energi statik berhingga kecuali pada daerah vakum. Solusi soliton yang stabil mensyaratkan bahwa titik stasioner pada konfigurasi medan untuk semua variasi yang bertransformasi skala haruslah sama. Solusi soliton yang stabil memiliki kondisi transformasi skala yang stasioner pada daerah tidak vakum\cite{Manton}.
+
+Tinjau kembali persamaan Lagrangian \textit{kink} pada energi $n$ spasial:
+\begin{eqnarray}
+E&=&\int d^nx\left[\frac{1}{2}(\nabla\phi)^2+V\right] \nonumber \\
+&=&E_2+E_0 \label{eq:energy3} ,
+\end{eqnarray}
+Misalkan $x$ bertransformasi skala menjadi:
+\begin{eqnarray}
+\mathbf{x}\rightarrow\mathbf{x}'&\equiv&\lambda\mathbf{x} , \nonumber \\
+\nabla\phi\rightarrow\nabla\phi(\mathbf{x}')&\equiv&\lambda\nabla\phi(\mathbf{x}) ,
+\end{eqnarray}
+Sehingga persamaan (\ref{eq:energy3}) menjadi:
+\begin{eqnarray}
+E&=&\int d^nx'\left[\lambda^{-n}\left(\frac{1}{2}\lambda^2(\nabla\phi)^2+V\right)\right] , \\
+E^{(\lambda)}&=&E_2\lambda^{2-n}+E_0\lambda^{-n} \label{eq:energy4} ,
+\end{eqnarray}
+Dari persamaan (\ref{eq:energy4}) diperoleh:
+\begin{eqnarray}
+\frac{dE}{d\lambda}&=&(2-n)E_2\lambda^{1-n}-nE_0\lambda^{-n-1} \label{eq:derrick1} , \\
+\frac{d^2E}{d\lambda^2}&=&(2-n)(1-n)E_2\lambda^{-n}+n(n+1)E_0\lambda^{-n-2} \label{eq:derrick2} ,
+\end{eqnarray}
+Persamaan (\ref{eq:energy4}) keadaannya akan stabil ketika memenuhi syarat kestabilan minimum:
+\begin{eqnarray}
+\frac{dE}{d\lambda}\bigg|_{\lambda=1}=0 \label{eq:condition1} , \\
+\frac{d^2E}{d\lambda^2}\bigg|_{\lambda=1}>0 \label{eq:condition2} ,
+\end{eqnarray}
+Dari kondisi (\ref{eq:condition1}) dan (\ref{eq:condition2}), didapatkan bahwa:
+\begin{eqnarray}
+\frac{dE}{d\lambda}\bigg|_{\lambda=1}&=&(2-n)E_2-nE_0 \nonumber \\
+(2-n)E_2-nE_0&=&0 \nonumber \\
+(2-n)E_2&=&nE_0 ,
+\end{eqnarray}
+Dan:
+\begin{eqnarray}
+\frac{d^2E}{d\lambda^2}\bigg|_{\lambda=1}&=&(2-n)(1-n)E_2+n(n+1)E_0 \nonumber \\
+(2-n)(1-n)E_2+n(n+1)E_0&>&0 ,
+\end{eqnarray}
+Kondisi (\ref{eq:condition2}) akan terpenuhi pada $n=1$.
+
+Pada kasus Skyrmion kita tinjau persamaan Lagrangian asli Skyrmion (\ref{eq:staticenergy}) dengan mengabaikan suku potensial, kemudian dilakukan transformasi skala:
+\begin{eqnarray}
+x^a=\frac{2\tilde{x}^a}{ef_\pi}\rightarrow dx^a=\left(\frac{2}{ef_\pi}\right)d\tilde{x}^a \label{scale} ,
+\end{eqnarray}
+Untuk indeks $a$ berjalan pada $1,2,3$, dan berlaku pula pada indeks $b$ dan $c$, sehingga diperoleh:
+\begin{eqnarray}
+d^3x=dx^1dx^2dx^3=\left(\frac{2d\tilde{x}^1}{ef_\pi}\right)\left(\frac{2d\tilde{x}^2}{ef_\pi}\right)\left(\frac{2d\tilde{x}^3}{ef_\pi}\right)=\left(\frac{2}{ef_\pi}\right)^3d\tilde{x}^1d\tilde{x}^2d\tilde{x}^3 \label{eq:spatial} ,
+\end{eqnarray}
+
+Sekarang kita tinjau:
+\begin{eqnarray}
+R_a=U^\dagger\partial_aU=U^\dagger\frac{\partial U}{\partial x^a} \label{eq:chiral} ,
+\end{eqnarray}
+Persamaan (\ref{eq:chiral}) dapat dinyatakan dengan:
+\begin{eqnarray}
+R_a=U^\dagger\frac{\partial\tilde{x}^b}{\partial x^a}\frac{\partial U}{\partial\tilde{x}^b} \label{eq:scalechiral} ,
+\end{eqnarray}
+Dari persamaan (\ref{eq:scalechiral}) dan (\ref{scale}), diperoleh:
+\begin{eqnarray}
+\frac{\partial\tilde{x}^b}{\partial x^a}=\frac{(\frac{af_\pi}{2})\partial x^b}{\partial x^a}=\left(\frac{af_\pi}{2}\right)\frac{\partial x^b}{\partial x^a}=\left(\frac{af_\pi}{2}\right)\delta_a^b \label{eq:scalechainrule} ,
+\end{eqnarray}
+Dengan $\frac{\partial x^b}{\partial x^a}=\delta_a^b$, dan $delta_a^b=1$ untuk $a=b$. Kemudian substitusi (\ref{eq:scalechainrule}) ke persamaan (\ref{eq:scalechiral}), maka diperoleh:
+\begin{eqnarray}
+R_a=U^\dagger\frac{\partial\tilde{x}^b}{\partial x^a}\frac{\partial U}{\partial\tilde{x}^b}=U^\dagger\left(\frac{ef_\pi}{2}\right)\delta_a^b\frac{\partial U}{\partial\tilde{x}^b}=\left(\frac{ef_\pi}{2}\right)U^\dagger\frac{\partial U}{\partial\tilde{x}^a}=\left(\frac{ef_\pi}{2}\right)\tilde{R}_a \label{eq:chiralscale} ,
+\end{eqnarray}
+
+Kita tinjau transformasi skala pada suku pertama persamaan (\ref{eq:staticenergy}).
+\begin{eqnarray}
+E_{statik}^{(1)}=-\int d^3x\operatorname{Tr}\left[\frac{f_\pi^2}{16}R_a^2\right] \label{eq:term1} ,
+\end{eqnarray}
+Substitusikan (\ref{eq:spatial}) dan (\ref{eq:chiralscale}) ke persamaan (eq:term1):
+\begin{eqnarray}
+E_{statik}^{(1)}&=&-\int d^3x\operatorname{Tr}\left[\frac{f_\pi^2}{16}R_a^2\right]  \nonumber \\
+&=&-\left(\frac{2}{af_\pi}\right)^3\left(\frac{f_\pi^2}{16}\right)\left(\frac{ef_\pi}{2}\right)^2\int d\tilde{x}^1d\tilde{x}^2d\tilde{x}^3\operatorname{Tr}[\tilde{R}_a^2] \nonumber \\
+&=&-\left(\frac{8}{e^3f_\pi^3}\right)\left(\frac{f_\pi^2}{16}\right)\left(\frac{e^2f_\pi^2}{4}\right)\int d\tilde{x}^1d\tilde{x}^2d\tilde{x}^3\operatorname{Tr}[\tilde{R}_a^2] \nonumber \\
+&=&\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\operatorname{Tr}[R_a^2] \label{eq:term1a} ,
+\end{eqnarray}
+Dimana telah dilabel ulangkan $\tilde{x}\rightarrow x$ dan $\tilde{R}_a\rightarrow R_a$, dan kita gunakan definisi:
+\begin{eqnarray}
+-\left(\frac{f_\pi}{8e}\right)=-\frac{1}{2}\left(\frac{f_\pi}{4e}\right)=-\frac{1}{2}\left(\frac{1}{12\pi^2}\right) ,
+\end{eqnarray}
+
+Tinjau transformasi skala untuk suku kedua persamaan (\ref{eq:staticenergy}):
+\begin{eqnarray}
+E_{statik}^{(2)}&=&-\int d^3x\operatorname{Tr}\left(\frac{1}{32e^2}[R_a,R_c]^2\right) \nonumber \\
+&=&-\int d^3x\operatorname{Tr}[R_aR_c-R_cR_a]^2 \nonumber \\
+&=&-\int \left(\frac{2}{ef_\pi}\right)^3d\tilde{x}^1d\tilde{x}^2d\tilde{x}^3\operatorname{Tr}\left(\frac{1}{32e^2}\left[\left(\frac{ef_\pi}{2}\right)\tilde{R}_a\left(\frac{ef_\pi}{2}\right)\tilde{R}_c\right.\right. \nonumber \\
+&&-\left.\left.\left(\frac{ef_\pi}{2}\right)\tilde{R}_c\left(\frac{ef_\pi}{2}\right)\tilde{R}_a\right]^2\right) \nonumber \\
+&=&-\left(\frac{2}{ef_\pi}\right)^3\left(\frac{1}{32e^2}\right)\int d\tilde{x}^1d\tilde{x}^2d\tilde{x}^3\operatorname{Tr}\left(\left(\frac{ef_\pi}{2}\right)^2\tilde{R}_a^2\left(\frac{ef_\pi}{2}\right)^2\tilde{R}_c^2\right. \nonumber \\
+&&\left.-2\left(\frac{ef_\pi}{2}\right)\tilde{R}_a\left(\frac{ef_\pi}{2}\right)\tilde{R}_c\left(\frac{ef_\pi}{2}\right)\tilde{R}_c\left(\frac{ef_\pi}{2}\right)\tilde{R}_a+\left(\frac{ef_\pi}{2}\right)^2\tilde{R}_c^2\left(\frac{ef_\pi}{2}\right)^2\tilde{R}_a^2\right) \nonumber \\
+&=&-\left(\frac{2}{ef_\pi}\right)^3\left(\frac{1}{32e^2}\right)\left(\frac{ef_\pi}{2}\right)^4\int d\tilde{x}^1d\tilde{x}^2d\tilde{x}^3\operatorname{Tr}[\tilde{R}_a^2\tilde{R}_c^2-2\tilde{R}_a\tilde{R}_c\tilde{R}_c\tilde{R}_a+\tilde{R}_c^2\tilde{R}_a^2] \nonumber \\
+&=&-\left(\frac{8}{e^3f_\pi^3}\right)\left(\frac{1}{32e^2}\right)\left(\frac{e^4f_\pi^4}{16}\right)\int d^3\tilde{x}\operatorname{Tr}([\tilde{R}_a,\tilde{R}_c]^2) \nonumber \\
+&=&-\left(\frac{f_\pi}{64e}\right)\int d^3\tilde{x}\operatorname{Tr}([\tilde{R}_a,\tilde{R}_c]^2) \nonumber \\
+&=&\frac{1}{12\pi^2}\int d^3\tilde{x}\left(-\frac{1}{2}\right)\operatorname{Tr}\left(\frac{1}{8}[\tilde{R}_a,\tilde{R}_c]^2\right) ,
+\end{eqnarray}
+Dimana
+\begin{eqnarray}
+-\frac{f_\pi}{64e}=\frac{1}{8}\left(-\frac{1}{2}\right)\left(\frac{f_\pi}{4e}\right)=\frac{1}{8}\left(-\frac{1}{2}\right)\left(\frac{1}{12\pi^2}\right) ,
+\end{eqnarray}
+Dan telah dilabel ulangkan $\tilde{x}\rightarrow x$ dan $\tilde{R}_a\rightarrow R_a$, sehingga:
+\begin{eqnarray}
+E_{statik}^{(2)}=\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\operatorname{Tr}\left(\frac{1}{8}[R_a,R_c]^2\right) \label{eq:term2} ,
+\end{eqnarray}
+
+Dari persamaan (\ref{eq:term1a}) dan (\ref{eq:term2}) diperoleh:
+\begin{eqnarray}
+E_{statik}&=&E_{statik}^{(1)}+E_{statik}^{(2)} \nonumber \\
+&=&\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\operatorname{Tr}[R_a^2]+\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\operatorname{Tr}\left(\frac{1}{8}[R_a,R_c]^2\right) \nonumber \\
+&=&\frac{1}{12\pi^2}\int d^3x\left(-\frac{1}{2}\right)\operatorname{Tr}\left[R_a^2+\frac{1}{8}[R_a,R_c]^2\right] \label{eq:scalestatic} ,
+\end{eqnarray}
+
+Persamaan (\ref{eq:scalestatic}) dilakukan pengujian kestabilan skala terhadap transformasi skala $x\rightarrow\lambda x$, sehingga $R_a$ terskalakan sebagai berikut:
+\begin{eqnarray}
+R_a(x)&\rightarrow& U^\dagger(x)\frac{\partial U(x)}{\partial x^a} \nonumber \\
+&=&U^\dagger(\lambda x)\frac{\partial U(\lambda x)}{\partial x^a} \nonumber \\
+&=&\lambda U^\dagger(\lambda x)\frac{\partial U(\lambda x)}{\partial\lambda x^a} \nonumber \\
+&=&\lambda R_a(\lambda x) \label{chiraltransform} ,
+\end{eqnarray}
+Dengan memasukkan (\ref{chiraltransform}) ke persamaan (\ref{eq:scalestatic}) maka:
+\begin{eqnarray}
+E[(\lambda)]_{statik}&=&\frac{1}{12\pi^2}\int \frac{d^3(\lambda x)}{\lambda^3}\left(-\frac{1}{2}\right)\operatorname{Tr}\left[(\lambda R_a(\lambda x))^2+\frac{1}{8}([\lambda R_a(\lambda x),\lambda R_c(\lambda x)]^2)\right] \nonumber \\
+&=&\frac{1}{12\pi^2}\int \frac{d^3(\lambda x)}{\lambda^3}\left(-\frac{1}{2}\right)\operatorname{Tr}\left[\lambda^2 R_a^2+\frac{1}{8}([\lambda R_a\lambda R_c-\lambda R_c\lambda R_a]^2)\right] \nonumber \\
+&=&\frac{1}{12\pi^2}\int \frac{d^3(\lambda x)}{\lambda^3}\left(-\frac{1}{2}\right)\operatorname{Tr}\left[\lambda^2 R_a^2+\frac{1}{8}([\lambda R_a\lambda R_c\lambda R_a\lambda R_c-2\lambda R_a\lambda R_c\lambda R_c\lambda R_a \right. \nonumber \\
+&&\left.+\lambda R_c\lambda R_a\lambda R_c\lambda R_a])\right] \nonumber \\
+&=&\frac{1}{12\pi^2}\int \frac{d^3(\lambda x)}{\lambda^3}\left(-\frac{1}{2}\right)\operatorname{Tr}\left[\lambda^2 R_a^2+\frac{\lambda^4}{8}([R_aR_cR_aR_c-2R_aR_cR_cR_a \right. \nonumber \\
+&&\left.+R_cR_aR_cR_a])\right] \nonumber \\
+&=&\frac{1}{12\pi^2}\int \frac{d^3(\lambda x)}{\lambda^3}\left(-\frac{1}{2}\right)\operatorname{Tr}\left[\lambda^2 R_a^2+\frac{\lambda^4}{8}[R_aR_c-R_cR_a]^2\right] \nonumber \\
+&=&\frac{1}{12\pi^2}\int \frac{d^3(\lambda x)}{\lambda^3}\left(-\frac{1}{2}\right)\operatorname{Tr}\left[\lambda^2 R_a^2+\frac{\lambda^4}{8}[R_a,R_c]^2\right] \nonumber \\
+&=&\frac{1}{12\pi^2}\int \frac{d^3(\lambda x)}{\lambda^3}\left(-\frac{1}{2}\right)\operatorname{Tr}[\lambda^2 R_a^2]+\frac{1}{12\pi^2}\int \frac{d^3(\lambda x)}{\lambda^3}(-\frac{1}{2})\operatorname{Tr}\left[\frac{\lambda^4}{8}[R_a,R_c]^2\right] \nonumber \\
+&=&\frac{1}{\lambda}\left(\frac{1}{12\pi^2}\int \frac{d^3(\lambda x)}{\lambda^3}\left(-\frac{1}{2}\right)\operatorname{Tr}[\lambda^2 R_a^2]\right) \nonumber \\
+&&+\lambda\left(\frac{1}{12\pi^2}\int \frac{d^3(\lambda x)}{\lambda^3}\left(-\frac{1}{2}\right)\operatorname{Tr}\left[\frac{\lambda^4}{8}[R_a,R_c]^2\right]\right) \nonumber \\
+&=&\frac{1}{\lambda}E_\sigma+\lambda E_{sky} \label{eq:staticscale} ,
+\end{eqnarray}
+Dimana $E_\sigma$ adalah suku energi \textit{chiral} statik dan $E_{sky}$ adalah suku energi Skyrme. Berdasarkan teorema Derrick yang menyatakan bahwa energi akan stabil pada kondisi:
+\begin{eqnarray}
+\frac{dE[\lambda]}{d\lambda}\bigg|_{\lambda=1}=0 \label{condition1} \\
+\frac{d^2E[\lambda]}{d\lambda^2}\bigg|_{\lambda=1}>0 \label{condition2} ,
+\end{eqnarray}
+Sehingga dari (\ref{eq:staticscale}) dihitung:
+\begin{eqnarray}
+\frac{dE[\lambda]}{d\lambda}\bigg|_{\lambda=1}&=&\frac{d}{d\lambda}\left[\frac{1}{\lambda}E_\sigma+\lambda E_{sky}\right]\bigg|_{\lambda=1} \nonumber \\
+&=&\left[\left(\frac{d}{d\lambda}\left[\frac{1}{\lambda}\right]\right)E_\sigma+\frac{1}{\lambda}\left(\frac{d}{d\lambda}E_\sigma\right)+\left(\frac{d}{d\lambda}[\lambda]\right) E_{sky}+\lambda\left(\frac{d}{d\lambda}E_{sky}\right)\right]\bigg|_{\lambda=1} \nonumber \\
+&=&\left[-\frac{1}{\lambda^2}E_\sigma+E_{sky}\right]\bigg|_{\lambda=1} \nonumber \\
+&=&-E_\sigma+E_{sky} \label{eq:derivative1} ,
+\end{eqnarray}
+\begin{eqnarray}
+\frac{d^2E[\lambda]}{d\lambda^2}\bigg|_{\lambda=1}&=&\frac{d}{d\lambda}\left[-\frac{1}{\lambda^2}E_\sigma+E_{sky}\right]\bigg|_{\lambda=1} \nonumber \\
+&=&(-1)\frac{d}{d\lambda}\left[\frac{1}{\lambda^2}E_\sigma\right]\bigg|_{\lambda=1}+\frac{d}{d\lambda}E_{sky}\bigg|_{\lambda=1} \nonumber \\
+&=&(-1)\left[\left(\frac{d}{d\lambda}\left[\frac{1}{\lambda^2}E_\sigma\right]\right)E_\sigma+\frac{1}{\lambda^2}\left(\frac{d}{d\lambda}\right)E_\sigma\right]\bigg|_{\lambda=1}+0 \nonumber \\
+&=&(-1)\left[-\frac{2}{\lambda^3}E_\sigma+0\right]\bigg|_{\lambda=1} \nonumber \\
+&=&\frac{2}{\lambda^3}E_\sigma\bigg|_{\lambda=1} \nonumber \\
+&=&2E_\sigma \label{eq:derivative2} ,
+\end{eqnarray}
+Agar kondisi (\ref{condition1}) terpenuhi, maka $E_\sigma=E_{sky}$, dengan $E_\sigma\geq 0$ untuk kondisi (\ref{condition2}).
