@@ -1,0 +1,154 @@
+% +++++++++++++++++++++++++++
+%
+% BAB 3: Metodologi
+%
+% +++++++++++++++++++++++++++
+
+\chapter{METODE PENELITIAN}
+\section{Alat dan Bahan}
+Pada penelitian ini menggunakan beberapa alat dan bahan sebagai berikut.
+
+\begin{itemize}
+\item SPECT/CT Siemens \\
+SPECT/CT dengan varian Siemens Symbia T series Intevo 16 di rumah sakit kanker Dharmais akan digunakan sebagai alat pencitraan. Sistem SPECT/CT tersebut terdiri dari 2 kepala kamera gamma yang sudah dihubungkan dengan komputer Syngo Siemens untuk melakukan akuisisi data dan rekonstruksi citra.
+
+\item Technetium-99m (\textsuperscript{99m}Tc) \\
+Radionuklida \textsuperscript{99m}Tc memiliki waktu paruh selama 6 jam dengan energi gamma yang dipancarkan sekitar 140.51 keV. Karakteristik dari \textsuperscript{99m}Tc tidak memancarkan partikel beta, konstanta sinar gamma spesifik sekitar 0.076 mrem/jam pada 1 meter per 1 mCi, dan aktivitas spesifiknya adalah 5,243,820 Ci/gr untuk \textsuperscript{99m}Tc murni dan $3.4 \times 10^6$ Ci/gr untuk \textsuperscript{99m}Tc bentuk pertechnetate.
+\item Fantom Jazsczak \\
+Model fantom Jazszcak yang akan digunakan adalah model \textit{Deluxe Flangeless} standar yang terdiri dari diameter silinder terstandarisasi dan beberapa sisipan. Sisipan pada fantom terdiri dari enam bola padat, sisipan \textit{Cold Rods} dan kapiler sebagai tempat dalam meletakkan sumber radionuklida dalam fantom. Ukuran diameter \textit{Cold Rods} adalah; 4.8 mm, 6.4 mm, 7.9 mm, 9.5 mm, 11.1 mm, 12.7 mm, dan ukuran diameter bola padat adalah; 9.5 mm, 12.7 mm, 15.9 mm, 19.1 mm, 25.4 mm, 31.8 mm.
+
+\begin{figure}[h]
+\includegraphics[scale=0.05]{Gambar/jaszsczak.jpg}
+\caption{Fantom Jaszczak}
+\label{jaszsczak}
+\end{figure}
+
+\item Handscoon \\
+Dalam melakukan preparasi, yaitu ketika pengisian fantom, menggunakan handscoon (sarung tangan medis) agar lebih steril.
+
+\item Syringe \\
+Pengambilan dan pemasukkan air menggunakan syringe 10 mL dan 20 mL, sedangkan dalam memasukkan bahan radioaktif $^{99m}$Tc menggunakan syringe 10 mL.
+
+\item Surveymeter \\
+Surveymeter digunakan dalam mengukur paparan ketika melakukan pengisian fantom.
+
+\item Air Mineral \\
+Air digunakan sebagai medium dalam pencampuran bahan radioaktif $^{99m}$Tc pada fantom. Banyaknya air yang digunakan $\pm$ 36.5 mL.
+
+\item Perangkat Lunak \\
+Pengolahan citra untuk memperoleh data kuantitatif menggunakan software imageJ. Untuk melakukan simulasi Monte Carlo digunakan beberapa perangkat lunak seperti GATE (\textit{Geant4 Application for Tomographic Emission}) berbasis GEANT4. GATE dikembangkan dalam melakukan simulasi numerikal yang berkaitan dengan pencitraan medis dan radioterapi, terutama untuk simulasi emisi tomografi seperti PET, SPECT, CT.
+\end{itemize}
+
+\section{Metode Eksperimen}
+Penelitian ini menggunakan dua metode, yaitu eksperimen dan simulasi. Pengukuran eksperimen sistem SPECT dilakukan dengan menggunakan kolimasi LEHR (\textit{Low Energy High Resolution}), variasi sudut $180^\circ$ tiap $2.8^\circ$, jumlah sampel linear per akuisisi 64, ukuran matriks citra $128 \times 128$. Langkah-langkah dalam melakukan eksperimen dilakukan berdasarkan rekomendasi ACR (\textit{American College of Radiology}).
+
+\begin{itemize}
+\item Pengisian Fantom Jaszczak \\
+Akuisisi dilakukan dengan $^{99m}$Tc sebesar 10-20 mCi berdasarkan rekomendasi Siemens, dan penambahan aktivitas sebesar 20-40 mCi jika citra yang diperoleh tidak memenuhi kriteria. Fantom diisi terlebih dahulu dengan air hingga penuh sekitar 36.5 mL. Pengisian air tersebut bertujuan untuk meminimalisir gelembung-gelembung udara yang muncul pada fantom. Kemudian untuk pencampuran $^{99m}$Tc dilakukan dengan mengurangi air 1/5 bagian air pada fantom, setelah itu dimasukkan $^{99m}$Tc sesuai dengan aktivitas yang diperlukan. Setelah dicampur, tutup fantom ditutup dengan baik (agar tidak bocor) dan dikocok terlebih dahulu agar $^{99m}$Tc dan air tercampur merata. Kemudian dimasukkan kembali air hingga penuh dan gelembung-gelembung udara hilang, lalu dikocok ulang untuk memastikan $^{99m}$Tc dan air tercampur dengan baik. Setelah dikocok, fantom dimasukkan ke dalam kantong plastik dengan tujuan meminimalisir kebocoran yang terjadi.
+
+\item Pemosisian Fantom Jaszzczak \\
+Penempatan fantom Jaszczak ketika akuisisi sangat penting dalam memperoleh kualitas citra tinggi. Buruknya posisi fantom dengan sumbu rotasi akan mengakibatkan penurunan resolusi pada citra bagian \textit{cold rod}. Beberapa hal yang diperhatikan dalam pemosisian fantom adalah posisi bola padat terbesar berada pada 90$^\circ$ dari detektor, fantom berada pada pusat FOV (\textit{Field of View}), fantom diposisikan dalam keadaan seimbang dan tidak goyah (jika memungkinkan diberi pengganjal), dan rotasi radius detektor diatur sedekat mungkin dengan fantom.
+
+\item Akuisisi Data \\
+Template pengaturan pada SPECT secara default diatur untuk sumber radioaktif $^{99m}$Tc. Parameter SPECT untuk akuisisi adalah 64 frame untuk 180$^\circ$ dengan zoom citra 1.45. Jarak detektor 1 pada bed diatur 2.67 cm dan detektor 2 pada bed diatur 24.5 cm (berdasarkan prinsip penempatan detektor sedekat mungkin dengan fantom). posisi bed secara vertikal diatur sebesar 12 cm. Dilakukan proses scan dengan pengaturan \textit{time per view} 15 s, 20 s, 30 s, dan 40 s. Akuisisi dilakukan terus dengan memulai aktivitas tertinggi (20 mCi, 30 mCi, atau 40 mCi) hingga meluruh 10 mCi.
+
+\item Processing Data \\
+Citra SPECT yang diperoleh direkonstruksi dengan menggunakan \textit{Filtered Back Projection} dengan filter rekonstruksi \textit{Shepp-Logan-Hanning} dan frekuensi cut-off 1 $\times$ Nyquist. Slice citra yang tampil adalah 64 slice dengan zoom 1.45. Koreksi atenuasi diatur sebesar 0.11 cm$^{-1}$. Citra bagian uniformitas dipilih 6 slice, untuk citra bagian kontras 2 slice, dan citra bagian resolusi spasial 16 slice. Citra per bagian slice tersebut dikomposit (digabung) yang selanjutnya dianalisis dengan melihat line profil (untuk bagian uniformitas) dan melakukan ROI (untuk bagian kontras).
+
+\item Perhitungan statistikal noise \\
+Setelah melakukan rekonstruksi citra dengan sistem SPECT, hasil data piksel yang ada di komputer kemudian dilakukan perhitungan noise secara statistik. Estimasi noise diperoleh dengan menghitung densitas cacahan rata-rata sampel ($Y_{avg}$) dengan persamaan:
+
+\begin{eqnarray}
+Y_{avg} = \frac{1}{N} \sum_{i=1}^{N} y_i \label{eq9}
+\end{eqnarray}
+
+Dimana \textit{N} adalah jumlah piksel pada ROI (\textit{Region of Interest}) dekat titik tengah citra rekonstruksi bagian silinder uniform fantom SPECT, dan $y_i$ adalah jumlah cacahan  per piksel ke-\textit{i}. Dari hasil tersebut dihitung standar deviasi:
+
+\begin{eqnarray}
+S_{dev} = \frac{1}{\sqrt{N-1}}\sqrt{\sum_{i=1}^{N}(y_i - Y_{avg})^2} \label{eq10}
+\end{eqnarray}
+
+Dan rms sampel noise dalam persen diperoleh:
+
+\begin{eqnarray}
+\%rms = (S_dev/Y_{avg})\ast 100 \label{eq11}
+\end{eqnarray}
+
+\item Kontras citra \\
+Rekonstruksi citra dari fantom yang menggunakan sisipan bola padat atau \textit{cold rods} akan diperoleh pengukuran kuantitatif kontras ($C_{image}$) untuk sisipan bola:
+
+\begin{eqnarray}
+C_{image} = \left|\frac{(Counts\cdot {Pixel}^{-1})_{sphere}-(Counts\cdot {Pixel}^{-1})_{background}}{(Counts\cdot {Pixel}^{-1})_{background}}\right| \label{eq12}
+\end{eqnarray}
+
+Untuk \textit{cold rods}:
+
+\begin{eqnarray}
+C_{image} = \left|\frac{(Counts\cdot {Pixel}^{-1})_{cold rods}-(Counts\cdot {Pixel}^{-1})_{background}}{(Counts\cdot {Pixel}^{-1})_{background}}\right| \label{eq13}
+\end{eqnarray}
+
+\item Pendeteksian artefak \\
+Investigasi artefak dilakukan pengukuran inhomogenitas dengan menggunakan lempengan tembaga ukuran 10 $\times$ 10 $mm^2$ dengan ketebalan 0.3 $mm$, 0.5 $mm$, 0.7 $mm$, 0.9 $mm$, dan 1 $mm$. Tembaga tersebut ditempelkan pada kolimator sehingga mensimulasikan adanya kerusakan PMT pada detektor. Hasil scan tersebut memungkinkan munculnya ring artefak.
+\end{itemize}
+
+\section{Simulasi Monte Carlo}
+Untuk metode simulasi digunakan perangkat lunak GATE dengan langkah awal mendesain sistem scan SPECT dan fantom Jazszcak, lalu membuat protokol optimisasi, melakukan tes algoritma, memperoleh data kuantifikasi, melakukan koreksi hamburan, menganalisis data, dan terakhir rekonstruksi citra.
+Salah satu code simulasi Monte Carlo yang digunakan adalah GATE. Code GATE merupakan salah satu dari program GEANT4 berbasis bahasa pemrograman C++ pada OS linux. Fitur dari simulasi GATE ini terdiri dari deskripsi akurat fenomena yang bergantung waktu seperti gerakan detektor, pernafasan pasien, gerakan kadiak, kinetika radiotracer, dsb. Pada aplikasi GATE terdapat perhitungan sistem matriks yang menggunakan rekonstruksi dan produksi data untuk evaluasi koreksi algoritma. Penggunaan GATE sebagai contoh dalam menentukan dosimetri, simulasi studi klinis dan fokus optimisasi algortima.
+
+Fitur-fitur yang disediakan GATE untuk melakukan simulasi adalah:
+
+\begin{enumerate}
+\item Konstruksi geometri dari modalitas (SPECT atau PET) dalam melakukan simulasi, dan bentuk dari phanto yang akan digunakan.
+\item Proses fisik yang terjadi dalam simulasi meliputi interaksi-interaksi yang terjadi pada foton atau elektron.
+\item Sumber yang digunakan beserta data spesifikasinya.
+\item Pergerakan dari foton dan elektron berupa jenis, kecepatan, atau komponen lainnya dalam melihat jalur interaksi sehingga dapat ditinjau \textit{cross-section} dan probabilitasnya. Durasi waktu akuisisi pengambilan data
+\end{enumerate}
+
+Output data dari GATE dalam bentuk ROOT, file ASCII, file binary, dan format data spesifik scanner yang disimulasikan.
+
+Data parameter spesifikasi gamma kamera yang digunakan dan parameter dalam proses akuisisi SPECT akan digunakan dalam simulasi GATE. Parameter fantom Jaszczak dimasukkan pula ke dalam GATE sebagai desain fantom. Simulasi akan dilakukan dengan membuat desain eksperimen dalam keadaan  sesuai dengan eksperimen manual. Beberapa hal yang perlu diperhatikan dalam modelling bergantung waktu diantaranya:
+
+\begin{enumerate}
+\item Perubahan distribusi tracer terhadap waktu.
+\item Gerakan detektor dalam akuisisi.
+\item Peluruhan radioaktif.
+\item \textit{Dead time} pada detektor.
+\end{enumerate}
+
+Prinsip dasar dari modelling waktu di GATE adalah menyesuaikan pemodelan peluruhan radioaktif berdasarkan skema peluruhan yang akan terjadi. Kemudian mendefinisikan variabel waktu ketika simulasi eksperimen sehingga data akan berubah berdasarkan perubahan waktu.
+
+\begin{figure}[h]
+\includegraphics[scale=0.5]{Gambar/simulation1.png}
+\caption{Contoh model simulasi desain SPECT pada GATE}
+\label{simulation1}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.6]{Gambar/simulation2.png}
+\caption{Modelling konstruksi geometri pada GATE dengan command script}
+\label{simulation2}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.7]{Gambar/simulation3.png}
+\caption{Modelling peluruhan sumber radioaktif}
+\label{simulation3}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.7]{Gambar/simulation4.png}
+\caption{Data output simulasi GATE}
+\label{simulation4}
+\end{figure}
+
+Kemudian modelling respon dari sistem elektronik yang digunakan dalam simulasi pencitraan. Komponen-komponen dan cara kerja dari beberapa rangkaian digital perlu diketahui dalam melakukan processing data simulasi. Pada bagian ini diusahakan mereproduksi kurva \textit{count rate} secara akurat.
+
+Untuk memudahkan desain detektor simulasi dapat dipecah menjadi dua bagian, yaitu transportasi foton pada objek dan transportasi foton pada detektor. Output dari transportasi foton pada objek direkam pada ruang fase. Teknik ini berguna dalam mengetes detektor yang didesain tanpa melakukan pengulangan.
+
+Algoritma yang digunakan dalam simulasi mengikuti gambar \ref{mc}. Kemudian dalam pendeteksian artefak, jenis ring artefak yang akan ditinjau. Pada simulasi tembaga (Cu) atau timbal (Pb) ditempel pada kolimator sehingga dari hal tersebut akan melihat rekonstruksi dari ring artefak sehingga analisis dari artefak yang dihasilkan akan dibandingkan dengan pengukuran manual yang tidak menggunakan Cu dan Pb. Optimalisasi protokol dan algoritma yang digunakan mengikuti gambar (\ref{mc}).
+
+\begin{figure}[h]
+\includegraphics[scale=0.5]{Gambar/diagpen.png}
+\caption{Diagram Alir Penelitian}
+\label{diagpen}
+\end{figure}

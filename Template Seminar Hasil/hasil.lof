@@ -1,0 +1,22 @@
+\select@language {bahasa}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Contoh hasil citra tanpa dan dengan \textit {ring} artefak akibat reduksi aktivitas pada dinding septa\cite {O'Connor1}\relax }}{12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 10 citra diperoleh dengan perubahan sistem uniformitas selama 360$^\circ $ dimana artefak muncul antara 180$^\circ $ dan 252$^\circ $ akibat kelainan salah satu PMT\cite {O'Connor1}\relax }}{12}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Citra dari sumber garis diperoleh dari pergerakan detektor dari jarak (A) 30 cm ke (B) 5 cm terhadap permukaan kolimator. Pemosisian hasil citra yang bagus terlihat pada (C) dan artefak akibat pergeseran sekitar 2-mm terlihat pada (D)\cite {O'Connor1}\relax }}{13}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Citra transaksial fantom Jaszczak bagian \textit {hot rod} dengan rekonstruksi (A) koreksi COR, dan (B) COR error 3.2-mm yang mengakibatkan artefak\relax }}{13}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Citra transaksial fantom Jaszczak bagian \textit {cold rod} diperoleh dengan menggunakan kolmator \textit {fan-beam} dan rekonstruksi (A) koreksi panjang focal, dan (B) Panjang focal diset tak hingga menghasilkan artefak\relax }}{14}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Tahap dasar simulasi interaksi foton pada volume yang ditentukan\cite {Ljungberg}\relax }}{18}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Fantom Jaszczak\relax }}{20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Contoh model simulasi desain SPECT pada GATE\relax }}{25}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Modelling konstruksi geometri pada GATE dengan command script\relax }}{25}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Modelling peluruhan sumber radioaktif\relax }}{26}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Data output simulasi GATE\relax }}{26}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagram Alir Penelitian\relax }}{27}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

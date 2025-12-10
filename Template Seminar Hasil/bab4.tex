@@ -1,0 +1,73 @@
+% +++++++++++++++++++++++++++
+%
+% BAB 4: Hasil
+%
+% +++++++++++++++++++++++++++
+
+\chapter{HASIL DAN ANALISIS}
+
+\section{Energi Statik dan Energi Rotasi}
+ Dari hasil perhitungan (\ref{eq:euler-lagrange}) yang menghasilkan grafik fungsi profil pada gambar (\ref{fig:profileL26}) secara numerik, kita dapatkan nilai eksak dari perhitungan energi statik dengan meninjau persamaan (\ref{eq:L26static2}). Bilangan baryon yang dipakai sesuai dengan solusi BPS, dimana $E=|B|$, adalah $B=|n|=1$. Nilai $n$ tersebut merupakan solusi energi pada koordinat bola, yang disebut sebagai solusi \textit{hedgehog} pada solusi fungsi profil, dan dipakai untuk mendapatkan nilai minimum energi pada energi statik yang dihitung. Hasil energi dari fungsi profil adalah $E=1,086$, dimana nilai tersebut melebihi ikatan BPS sekitar $8\%$. Walaupun nilai tersebut tidak eksak sebagai syarat dari solusi BPS, dimana $E=1$, hasil tersebut dapat digunakan sebagai pendekatan hampir-BPS Skyrme karena memiliki tingkat \textit{error} yang lebih rendah daripada nilai eksak energi pada persamaan (\ref{eq:staticskyrme}), dimana $E=1,232$.
+
+Jika kita tinjau persamaan (\ref{eq:hamiltonianL26}), hasil tersebut memiliki kesamaan pada kuantisasi Skyrmion dengan semua suku Lagrangian pada (\ref{eq:rotationhamiltonian}). Hanya definisi untuk momen inersia Skyrmion pada $U$, $V$, dan $W$ berbeda dimana suku Skyrme akan hilang karena kita telah menset nilai parameter $\beta$ dianggap sangat kecil. Dari hasil tersebut mengindikasikan bahwa persamaan Skyrmion (\ref{eq:L26}) menunjukkan karakteristik dari gerakan rotasi pada \textit{rigid-body} inti nuklir\cite{Bonenfant},\cite{Beaudoin},\cite{Marleau}. Namun dari kuantisasi tersebut, kita belum mengetahui karakteristik dari masing-masing proton dan neutron dari model inti, sehingga efek rotasi dan isorotasi dideskripsikan sebagai nukleon.
+
+Hasil energi statik (\ref{eq:L26static1}) dan energi rotasi (\ref{eq:hamiltonianL26}), kita plot secara grafis kedua energi masing-masing dan energi total dari penjumlahan kedua energi dengan hubungan bilangan baryon $n$ dengan menggunakan solusi numerik dari fungsi profil $g(r)$ pada gambar \ref{fig:profileL26}.
+
+Dari gambar (\ref{fig:energy}), energi statik berbanding lurus dengan $n$. Semakin besar $n$, maka semakin besar pula energi statik, sehingga energi ikat dari inti nuklir akan semakin besar pula dalam kasus model Skyrme. Sedangkan efek dari energi rotasi memiliki karakteristik yang berbanding terbalik dengan energi statik. Energi total dari energi statik dan energi rotasi memperlihatkan bahwa efek dari energi statik lebih besar daripada efek dari energi rotasi. Berdasarkan teori model nuklir, energi rotasi mendeskripsikan gerakan \textit{rigid body} pada inti nuklir dalam kasus mekanika klasik, dimana energi statik yang dihasilkan pada Lagrangian Skyrme memiliki peran dalam mempertahankan bentuk dari inti nuklir tersebut dengan \textit{momenta} energi seminimal mungkin.
+
+\section{Nilai Konstanta Kopling}
+Parameter konstanta kopling yang dicari adalah parameter konstanta $\lambda$ yang ada pada suku derivatif orde keenam $L_6$. Konstanta $\lambda $ tersebut merupakan konstanta tidak berdimensi yang muncul ketika kita menstabilkan persamaan Lagrangian Skyrmion yang diekspansikan. Dalam arti fisis, $\lambda$ mendeskripsikan inetraksi yang terjadi pada nukleon dalam Lagrangian.
+
+Nilai konstanta kopling $\lambda$ dicari dari persamaan (\ref{eq:mass}), dimana $m$ yang dipakai ada dua, yaitu massa nukleon yang bernilai $938,9$ MeV dan massa delta $1232$ MeV. Hasil perhitungan dengan menggunakan kedua nilai massa tersebut diperlihatkan pada tabel (\ref{table:lambda}).
+\begin{table}
+\begin{center}
+\begin{tabular}{||c| c| c||} 
+\hline
+Parameter & $\lambda_1$ & $\lambda_2$ \\ [0.5ex] 
+\hline\hline
+Massa Nukleon ($938,9$) MeV & $7,575\times 10^{-5}$ & $8,303\times 10^{-5}$ \\ 
+\hline
+Massa Delta ($1232$) MeV & $1,979\times 10^{-4}$ & $1,387\times 10^{-3}$ \\ [1ex]
+\hline
+\end{tabular}
+\caption{Tabel hasil konstanta kopling ($\lambda$) dengan set massa nukleon dan massa delta.}
+\label{table:lambda}
+\end{center}
+\end{table}
+Kemudian dari tabel (\ref{table:lambda}), kita gunakan nilai $\lambda$ ke persamaan (\ref{eq:mass}). Hasil perhitungan massa nukleon dan massa delta untuk masing-masing $\lambda$ terlihat pada tabel (\ref{table:mass}).
+
+\begin{table}
+\begin{center}
+\begin{tabular}{||c| c| c||} 
+\hline
+Konstanta Kopling ($\lambda$) & Massa Nukleon (MeV) & Massa Delta (MeV) \\ [0.5ex] 
+\hline\hline
+$7,575\times 10^{-5}$ & 938,9 (eksperimen) & 3582,13 \\
+\hline
+$8,303\times 10^{-5}$ & 938,9 (eksperimen) & 1011,74 \\
+\hline
+$1,979\times 10^{-4}$ & 605,981 & 1232 (eksperimen) \\
+\hline
+$1,387\times 10^{-3}$ & 1198,25 & 1232 (eksperimen) \\ [1ex]
+\hline
+\end{tabular}
+\caption{Tabel hasil massa nukleon dan massa delta dengan memasukkan nilai parameter konstanta kopling yang diperoleh dari tabel (\ref{table:lambda}).}
+\label{table:mass}
+\end{center}
+\end{table}
+
+Jika kita lihat tabel (\ref{table:lambda}) dan tabel (\ref{table:mass}), nilai $\lambda$ yang mendekati dengan nilai massa delta untuk massa nukleon yang diset nilainya secara eksperimen adalah $\lambda_2$, karena massa delta yang diperoleh memiliki \textit{error} (kesalahan literatur) sekitar $17,9\%$. Untuk massa delta yang diset nilainya, nilai massa nukleon terbaik ketika kita menggunakan $\lambda_2$, dimana \textit{error} yang diperoleh adalah $27,8\%$. Jika kita buat rentang nilai terbaik $\lambda$ adalah $8,303\times 10^{-5}\leq\lambda\leq 1,387\times 10^{-3}$. Dengan mengambil nilai $\lambda$ terbaik dari rentang tersebut dengan menggunakan metode \textit{mean}, maka kita akan memperoleh $\lambda_{terbaik}=1,108\times 10^{-3}$, sehingga $m_{nukleon}=1075,6$ dengan \textit{error} $14,6\%$ dan $m_{delta}=1122,8$ dengan \textit{error} $8,8\%$.
+
+Cara lain untuk memperoleh nilai $\lambda$ adalah dengan menggunakan persamaan dari penjumlahan massa nukleon dan massa delta.
+\begin{eqnarray}
+m_{nukleon}+m_{delta}&=&(M_{statik}+M_{rotasi})_{nukleon}+(M_{statik}+M_{rotasi})_{delta} \nonumber \\
+&=&\left(\frac{3f_\pi^3\lambda}{\sqrt{2}}\right)^{\frac{1}{2}}\pi\mathcal{E}_{statik}+\left(\frac{1}{2}\left[\frac{j(j+1)}{V_{11}}+\frac{i(i+1)}{U_{11}}\right.\right. \nonumber \\
+&&\left.\left.+\left(\frac{1}{U_{33}}-\frac{1}{U_{11}}-\frac{n^2}{V_{11}}\right)k_3^2\right]\right)_{nukleon} \nonumber \\
+&&+\left(\frac{1}{2}\left[\frac{j(j+1)}{V_{11}}+\frac{i(i+1)}{U_{11}}\right.\right. \nonumber \\
+&&\left.\left.+\left(\frac{1}{U_{33}}-\frac{1}{U_{11}}-\frac{n^2}{V_{11}}\right)k_3^2\right]\right)_{delta} \label{eq:summass}
+\end{eqnarray}
+Dari persamaan (\ref{eq:summass}) disederhanakan menjadi persamaan:
+\begin{eqnarray}
+63904,2\lambda^{\frac{1}{2}}+0,0026\lambda^{-\frac{3}{2}}-2170,9=0 \label{eq:simplemass}
+\end{eqnarray}
+Solusi yang diperoleh dari persamaan (\ref{eq:simplemass}) adalah $\lambda_3=1,531\times 10^{-4}$ dan $\lambda_4=1,077\times 10^{-3}$, dengan $\lambda_4$ sebagai $\lambda_{terbaik}$ dan $m_{nukleon}+m_{delta}=2170,9$.
